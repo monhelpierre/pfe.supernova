@@ -1,0 +1,1025 @@
+
+2021-02-01 09:33:29 Commons Daemon procrun stderr initialized
+01-Feb-2021 09:33:32.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.53
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 29 2018 14:42:45 UTC
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.53.0
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_111
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\endorsed
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\temp
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\conf\logging.properties
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.17 using APR version 1.6.3.
+01-Feb-2021 09:33:32.541 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+01-Feb-2021 09:33:33.635 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2o  27 Mar 2018)
+01-Feb-2021 09:33:34.135 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-6060"]
+01-Feb-2021 09:33:34.167 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-7009"]
+01-Feb-2021 09:33:34.182 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3075 ms
+01-Feb-2021 09:33:34.354 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+01-Feb-2021 09:33:34.354 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.53
+01-Feb-2021 09:33:34.495 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\host-manager
+01-Feb-2021 09:33:36.263 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [108] milliseconds.
+01-Feb-2021 09:33:36.332 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\host-manager has finished in 1,837 ms
+01-Feb-2021 09:33:36.332 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\manager
+01-Feb-2021 09:33:36.473 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\manager has finished in 141 ms
+01-Feb-2021 09:33:36.473 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\ROOT
+01-Feb-2021 09:33:36.582 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\ROOT has finished in 109 ms
+01-Feb-2021 09:33:36.629 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-6060"]
+01-Feb-2021 09:33:36.660 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-7009"]
+01-Feb-2021 09:33:36.676 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2496 ms
+01-Feb-2021 16:02:23.379 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-6060"]
+01-Feb-2021 16:02:23.411 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-7009"]
+01-Feb-2021 16:02:23.465 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+01-Feb-2021 16:02:23.734 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-6060"]
+01-Feb-2021 16:02:23.798 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-7009"]
+
+2021-02-01 16:03:04 Commons Daemon procrun stderr initialized
+01-Feb-2021 16:03:09.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.53
+01-Feb-2021 16:03:09.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 29 2018 14:42:45 UTC
+01-Feb-2021 16:03:09.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.53.0
+01-Feb-2021 16:03:09.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+01-Feb-2021 16:03:09.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+01-Feb-2021 16:03:09.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+01-Feb-2021 16:03:09.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_111
+01-Feb-2021 16:03:09.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+01-Feb-2021 16:03:09.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Feb-2021 16:03:09.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+01-Feb-2021 16:03:09.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+01-Feb-2021 16:03:09.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+01-Feb-2021 16:03:09.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+01-Feb-2021 16:03:09.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\endorsed
+01-Feb-2021 16:03:09.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\temp
+01-Feb-2021 16:03:09.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Feb-2021 16:03:09.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\conf\logging.properties
+01-Feb-2021 16:03:09.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+01-Feb-2021 16:03:09.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+01-Feb-2021 16:03:09.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+01-Feb-2021 16:03:09.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+01-Feb-2021 16:03:09.195 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.17 using APR version 1.6.3.
+01-Feb-2021 16:03:09.195 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+01-Feb-2021 16:03:10.314 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2o  27 Mar 2018)
+01-Feb-2021 16:03:14.497 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-6060"]
+01-Feb-2021 16:03:14.528 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-7009"]
+01-Feb-2021 16:03:14.528 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 7109 ms
+01-Feb-2021 16:03:14.750 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+01-Feb-2021 16:03:14.751 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.53
+01-Feb-2021 16:03:14.924 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\host-manager
+01-Feb-2021 16:03:16.768 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [310] milliseconds.
+01-Feb-2021 16:03:16.908 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\host-manager has finished in 1,983 ms
+01-Feb-2021 16:03:16.908 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\manager
+01-Feb-2021 16:03:17.465 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\manager has finished in 556 ms
+01-Feb-2021 16:03:17.466 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\ROOT
+01-Feb-2021 16:03:17.740 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\ROOT has finished in 275 ms
+01-Feb-2021 16:03:17.766 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-6060"]
+01-Feb-2021 16:03:17.814 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-7009"]
+01-Feb-2021 16:03:17.826 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3284 ms
+01-Feb-2021 16:18:27.156 INFO [http-apr-6060-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\conf\Catalina\localhost\sygealoc.xml
+01-Feb-2021 16:18:33.642 INFO [http-apr-6060-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Feb-2021 16:18:33.821 INFO [http-apr-6060-exec-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+01-Feb-2021 16:18:34.311 INFO [http-apr-6060-exec-1] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Feb 01 16:18:34 CST 2021]; root of context hierarchy
+01-Feb-2021 16:18:34.560 INFO [http-apr-6060-exec-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01-Feb-2021 16:18:35.296 INFO [http-apr-6060-exec-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1475 ms
+01-Feb-2021 16:18:35.364 INFO [http-apr-6060-exec-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+01-Feb-2021 16:18:35.378 INFO [http-apr-6060-exec-1] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 16:18:35 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 16:18:35.383 INFO [http-apr-6060-exec-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+01-Feb-2021 16:18:35.835 INFO [http-apr-6060-exec-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+01-Feb-2021 16:18:35.837 INFO [http-apr-6060-exec-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+01-Feb-2021 16:18:35.839 INFO [http-apr-6060-exec-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+01-Feb-2021 16:18:35.840 INFO [http-apr-6060-exec-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+01-Feb-2021 16:18:35.842 INFO [http-apr-6060-exec-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+01-Feb-2021 16:18:35.843 INFO [http-apr-6060-exec-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+01-Feb-2021 16:18:35.845 INFO [http-apr-6060-exec-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+01-Feb-2021 16:18:35.846 INFO [http-apr-6060-exec-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+01-Feb-2021 16:18:35.848 INFO [http-apr-6060-exec-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+01-Feb-2021 16:18:35.852 INFO [http-apr-6060-exec-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+01-Feb-2021 16:18:35.854 INFO [http-apr-6060-exec-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+01-Feb-2021 16:18:35.856 INFO [http-apr-6060-exec-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+01-Feb-2021 16:18:35.857 INFO [http-apr-6060-exec-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+01-Feb-2021 16:18:35.859 INFO [http-apr-6060-exec-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+01-Feb-2021 16:18:35.862 INFO [http-apr-6060-exec-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+01-Feb-2021 16:18:36.249 INFO [http-apr-6060-exec-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+01-Feb-2021 16:18:36.339 INFO [http-apr-6060-exec-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+01-Feb-2021 16:18:36.613 INFO [http-apr-6060-exec-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 1249 ms
+01-Feb-2021 16:18:36.698 INFO [http-apr-6060-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\conf\Catalina\localhost\sygealoc.xml has finished in 9,540 ms
+01-Feb-2021 16:18:36.711 INFO [http-apr-6060-exec-9] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sygealoc]] after start() had already been called. The second call will be ignored.
+01-Feb-2021 16:19:38.787 WARNING [http-apr-6060-exec-5] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:20:04.314 WARNING [http-apr-6060-exec-8] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:23:15.190 WARNING [http-apr-6060-exec-8] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:24:28.546 WARNING [http-apr-6060-exec-5] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:26:06.341 WARNING [http-apr-6060-exec-8] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:26:07.549 WARNING [http-apr-6060-exec-5] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:26:07.560 WARNING [http-apr-6060-exec-6] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:26:07.569 WARNING [http-apr-6060-exec-10] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:26:08.542 WARNING [http-apr-6060-exec-2] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:26:08.591 WARNING [http-apr-6060-exec-1] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:26:08.668 WARNING [http-apr-6060-exec-7] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:26:45.389 WARNING [http-apr-6060-exec-1] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:26:55.232 WARNING [http-apr-6060-exec-7] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:26:55.806 WARNING [http-apr-6060-exec-6] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:26:55.814 WARNING [http-apr-6060-exec-9] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:26:55.821 WARNING [http-apr-6060-exec-10] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:26:56.935 WARNING [http-apr-6060-exec-2] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:26:57.080 WARNING [http-apr-6060-exec-7] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:26:57.133 WARNING [http-apr-6060-exec-4] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:27:01.846 WARNING [http-apr-6060-exec-6] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:27:02.296 WARNING [http-apr-6060-exec-8] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:27:03.019 WARNING [http-apr-6060-exec-8] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:30:32.062 WARNING [http-apr-6060-exec-2] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:30:32.970 WARNING [http-apr-6060-exec-5] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:30:32.978 WARNING [http-apr-6060-exec-6] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:30:32.986 WARNING [http-apr-6060-exec-7] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:30:33.779 WARNING [http-apr-6060-exec-8] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:30:33.983 WARNING [http-apr-6060-exec-6] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:30:34.062 WARNING [http-apr-6060-exec-7] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:31:57.645 WARNING [http-apr-6060-exec-3] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:31:58.711 WARNING [http-apr-6060-exec-5] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:31:58.732 WARNING [http-apr-6060-exec-4] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:31:58.736 WARNING [http-apr-6060-exec-7] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:31:59.408 WARNING [http-apr-6060-exec-6] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:32:27.692 WARNING [http-apr-6060-exec-4] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:32:27.860 WARNING [http-apr-6060-exec-6] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:32:28.786 WARNING [http-apr-6060-exec-10] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:32:51.311 WARNING [http-apr-6060-exec-6] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:32:51.577 WARNING [http-apr-6060-exec-10] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:32:51.578 WARNING [http-apr-6060-exec-8] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:32:51.596 WARNING [http-apr-6060-exec-1] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:32:52.646 WARNING [http-apr-6060-exec-7] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:32:52.781 WARNING [http-apr-6060-exec-10] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:32:52.841 WARNING [http-apr-6060-exec-3] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:39:15.276 WARNING [http-apr-6060-exec-3] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:39:16.157 WARNING [http-apr-6060-exec-1] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:39:16.977 WARNING [http-apr-6060-exec-9] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:39:45.170 WARNING [http-apr-6060-exec-10] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:39:45.176 WARNING [http-apr-6060-exec-5] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:39:45.574 WARNING [http-apr-6060-exec-10] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:41:18.870 WARNING [http-apr-6060-exec-10] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:41:20.687 WARNING [http-apr-6060-exec-5] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:41:21.666 WARNING [http-apr-6060-exec-2] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:41:26.056 WARNING [http-apr-6060-exec-5] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:41:27.002 WARNING [http-apr-6060-exec-10] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:41:37.979 WARNING [http-apr-6060-exec-1] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:41:38.414 WARNING [http-apr-6060-exec-2] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:41:39.413 WARNING [http-apr-6060-exec-9] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:42:58.182 WARNING [http-apr-6060-exec-1] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:42:58.407 WARNING [http-apr-6060-exec-2] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:46:09.392 WARNING [http-apr-6060-exec-9] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:46:09.996 WARNING [http-apr-6060-exec-2] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:46:10.002 WARNING [http-apr-6060-exec-3] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:46:10.012 WARNING [http-apr-6060-exec-9] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:46:10.970 WARNING [http-apr-6060-exec-3] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:46:11.085 WARNING [http-apr-6060-exec-6] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:46:11.225 WARNING [http-apr-6060-exec-2] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:46:15.737 WARNING [http-apr-6060-exec-5] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:46:15.901 WARNING [http-apr-6060-exec-8] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:46:16.404 WARNING [http-apr-6060-exec-4] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:47:31.652 WARNING [http-apr-6060-exec-5] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:47:31.929 WARNING [http-apr-6060-exec-10] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:49:26.705 WARNING [http-apr-6060-exec-3] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:57:15.897 WARNING [http-apr-6060-exec-7] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 16:58:24.867 WARNING [http-apr-6060-exec-4] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 17:02:30.132 WARNING [http-apr-6060-exec-8] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 17:03:19.387 WARNING [http-apr-6060-exec-1] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 17:05:02.637 WARNING [http-apr-6060-exec-3] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 17:18:28.774 WARNING [http-apr-6060-exec-4] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 17:20:46.051 WARNING [http-apr-6060-exec-3] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 17:22:48.574 WARNING [http-apr-6060-exec-7] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 19:21:41.674 WARNING [http-apr-6060-exec-1] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 19:23:27.392 WARNING [http-apr-6060-exec-3] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 19:23:36.468 WARNING [http-apr-6060-exec-1] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 19:31:32.992 WARNING [http-apr-6060-exec-9] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 19:32:51.299 WARNING [http-apr-6060-exec-8] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 19:34:21.861 WARNING [http-apr-6060-exec-6] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 19:35:28.285 WARNING [http-apr-6060-exec-1] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 19:36:14.402 WARNING [http-apr-6060-exec-3] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 19:37:54.858 WARNING [http-apr-6060-exec-5] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 19:39:19.883 WARNING [http-apr-6060-exec-10] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 19:41:47.968 WARNING [http-apr-6060-exec-4] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 19:43:45.393 WARNING [http-apr-6060-exec-2] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 19:45:20.245 WARNING [http-apr-6060-exec-10] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 19:46:04.773 WARNING [http-apr-6060-exec-6] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 19:47:53.196 WARNING [http-apr-6060-exec-7] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 19:59:35.998 WARNING [http-apr-6060-exec-4] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 20:01:21.866 WARNING [http-apr-6060-exec-4] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 20:04:11.851 WARNING [http-apr-6060-exec-5] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 20:09:03.504 INFO [http-apr-6060-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] has started
+01-Feb-2021 20:09:03.573 INFO [http-apr-6060-exec-2] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 16:18:35 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:09:03.747 INFO [http-apr-6060-exec-2] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Feb 01 16:18:34 CST 2021]; root of context hierarchy
+01-Feb-2021 20:09:05.302 WARNING [http-apr-6060-exec-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [sygealoc] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+01-Feb-2021 20:09:16.804 INFO [http-apr-6060-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Feb-2021 20:09:16.986 INFO [http-apr-6060-exec-2] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+01-Feb-2021 20:09:17.603 INFO [http-apr-6060-exec-2] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Feb 01 20:09:17 CST 2021]; root of context hierarchy
+01-Feb-2021 20:09:17.855 INFO [http-apr-6060-exec-2] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01-Feb-2021 20:09:18.287 INFO [http-apr-6060-exec-2] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1301 ms
+01-Feb-2021 20:09:18.409 INFO [http-apr-6060-exec-2] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+01-Feb-2021 20:09:18.476 INFO [http-apr-6060-exec-2] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:09:18 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:09:18.484 INFO [http-apr-6060-exec-2] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+01-Feb-2021 20:09:18.877 INFO [http-apr-6060-exec-2] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+01-Feb-2021 20:09:18.883 INFO [http-apr-6060-exec-2] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+01-Feb-2021 20:09:18.884 INFO [http-apr-6060-exec-2] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+01-Feb-2021 20:09:18.885 INFO [http-apr-6060-exec-2] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+01-Feb-2021 20:09:18.887 INFO [http-apr-6060-exec-2] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+01-Feb-2021 20:09:18.888 INFO [http-apr-6060-exec-2] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+01-Feb-2021 20:09:18.891 INFO [http-apr-6060-exec-2] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+01-Feb-2021 20:09:18.893 INFO [http-apr-6060-exec-2] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+01-Feb-2021 20:09:18.894 INFO [http-apr-6060-exec-2] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+01-Feb-2021 20:09:18.896 INFO [http-apr-6060-exec-2] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+01-Feb-2021 20:09:18.898 INFO [http-apr-6060-exec-2] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+01-Feb-2021 20:09:18.899 INFO [http-apr-6060-exec-2] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+01-Feb-2021 20:09:18.901 INFO [http-apr-6060-exec-2] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+01-Feb-2021 20:09:18.902 INFO [http-apr-6060-exec-2] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+01-Feb-2021 20:09:18.904 INFO [http-apr-6060-exec-2] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+01-Feb-2021 20:09:19.101 INFO [http-apr-6060-exec-2] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+01-Feb-2021 20:09:19.198 INFO [http-apr-6060-exec-2] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+01-Feb-2021 20:09:19.340 INFO [http-apr-6060-exec-2] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 931 ms
+01-Feb-2021 20:09:19.347 INFO [http-apr-6060-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] is completed
+01-Feb-2021 20:09:52.071 INFO [http-apr-6060-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] has started
+01-Feb-2021 20:09:52.078 INFO [http-apr-6060-exec-7] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:09:18 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:09:52.115 INFO [http-apr-6060-exec-7] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Feb 01 20:09:17 CST 2021]; root of context hierarchy
+01-Feb-2021 20:09:56.458 INFO [http-apr-6060-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Feb-2021 20:09:56.574 INFO [http-apr-6060-exec-7] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+01-Feb-2021 20:09:56.983 INFO [http-apr-6060-exec-7] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Feb 01 20:09:56 CST 2021]; root of context hierarchy
+01-Feb-2021 20:09:57.213 INFO [http-apr-6060-exec-7] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01-Feb-2021 20:09:57.435 INFO [http-apr-6060-exec-7] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 860 ms
+01-Feb-2021 20:09:57.498 INFO [http-apr-6060-exec-7] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+01-Feb-2021 20:09:57.511 INFO [http-apr-6060-exec-7] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:09:57 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:09:57.514 INFO [http-apr-6060-exec-7] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+01-Feb-2021 20:09:57.882 INFO [http-apr-6060-exec-7] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+01-Feb-2021 20:09:57.884 INFO [http-apr-6060-exec-7] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+01-Feb-2021 20:09:57.885 INFO [http-apr-6060-exec-7] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+01-Feb-2021 20:09:57.888 INFO [http-apr-6060-exec-7] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+01-Feb-2021 20:09:57.889 INFO [http-apr-6060-exec-7] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+01-Feb-2021 20:09:57.890 INFO [http-apr-6060-exec-7] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+01-Feb-2021 20:09:57.891 INFO [http-apr-6060-exec-7] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+01-Feb-2021 20:09:57.892 INFO [http-apr-6060-exec-7] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+01-Feb-2021 20:09:57.895 INFO [http-apr-6060-exec-7] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+01-Feb-2021 20:09:57.899 INFO [http-apr-6060-exec-7] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+01-Feb-2021 20:09:57.904 INFO [http-apr-6060-exec-7] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+01-Feb-2021 20:09:57.906 INFO [http-apr-6060-exec-7] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+01-Feb-2021 20:09:57.907 INFO [http-apr-6060-exec-7] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+01-Feb-2021 20:09:57.909 INFO [http-apr-6060-exec-7] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+01-Feb-2021 20:09:57.911 INFO [http-apr-6060-exec-7] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+01-Feb-2021 20:09:58.119 INFO [http-apr-6060-exec-7] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+01-Feb-2021 20:09:58.201 INFO [http-apr-6060-exec-7] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+01-Feb-2021 20:09:58.352 INFO [http-apr-6060-exec-7] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 853 ms
+01-Feb-2021 20:09:58.356 INFO [http-apr-6060-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] is completed
+01-Feb-2021 20:10:05.644 INFO [http-apr-6060-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] has started
+01-Feb-2021 20:10:05.648 INFO [http-apr-6060-exec-13] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:09:57 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:10:05.847 INFO [http-apr-6060-exec-13] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Feb 01 20:09:56 CST 2021]; root of context hierarchy
+01-Feb-2021 20:10:10.060 INFO [http-apr-6060-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Feb-2021 20:10:10.234 INFO [http-apr-6060-exec-13] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+01-Feb-2021 20:10:10.688 INFO [http-apr-6060-exec-13] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Feb 01 20:10:10 CST 2021]; root of context hierarchy
+01-Feb-2021 20:10:10.936 INFO [http-apr-6060-exec-13] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01-Feb-2021 20:10:11.450 INFO [http-apr-6060-exec-13] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1216 ms
+01-Feb-2021 20:10:11.566 INFO [http-apr-6060-exec-13] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+01-Feb-2021 20:10:11.583 INFO [http-apr-6060-exec-13] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:10:11 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:10:11.587 INFO [http-apr-6060-exec-13] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+01-Feb-2021 20:10:12.035 INFO [http-apr-6060-exec-13] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+01-Feb-2021 20:10:12.036 INFO [http-apr-6060-exec-13] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+01-Feb-2021 20:10:12.037 INFO [http-apr-6060-exec-13] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+01-Feb-2021 20:10:12.039 INFO [http-apr-6060-exec-13] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+01-Feb-2021 20:10:12.042 INFO [http-apr-6060-exec-13] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+01-Feb-2021 20:10:12.044 INFO [http-apr-6060-exec-13] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+01-Feb-2021 20:10:12.045 INFO [http-apr-6060-exec-13] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+01-Feb-2021 20:10:12.046 INFO [http-apr-6060-exec-13] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+01-Feb-2021 20:10:12.047 INFO [http-apr-6060-exec-13] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+01-Feb-2021 20:10:12.049 INFO [http-apr-6060-exec-13] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+01-Feb-2021 20:10:12.052 INFO [http-apr-6060-exec-13] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+01-Feb-2021 20:10:12.053 INFO [http-apr-6060-exec-13] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+01-Feb-2021 20:10:12.055 INFO [http-apr-6060-exec-13] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+01-Feb-2021 20:10:12.057 INFO [http-apr-6060-exec-13] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+01-Feb-2021 20:10:12.059 INFO [http-apr-6060-exec-13] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+01-Feb-2021 20:10:12.335 INFO [http-apr-6060-exec-13] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+01-Feb-2021 20:10:12.428 INFO [http-apr-6060-exec-13] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+01-Feb-2021 20:10:12.591 INFO [http-apr-6060-exec-13] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 1025 ms
+01-Feb-2021 20:10:12.612 INFO [http-apr-6060-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] is completed
+01-Feb-2021 20:10:14.945 INFO [http-apr-6060-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] has started
+01-Feb-2021 20:10:14.948 INFO [http-apr-6060-exec-8] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:10:11 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:10:14.966 INFO [http-apr-6060-exec-8] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Feb 01 20:10:10 CST 2021]; root of context hierarchy
+01-Feb-2021 20:10:19.302 INFO [http-apr-6060-exec-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Feb-2021 20:10:19.415 INFO [http-apr-6060-exec-8] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+01-Feb-2021 20:10:19.808 INFO [http-apr-6060-exec-8] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Feb 01 20:10:19 CST 2021]; root of context hierarchy
+01-Feb-2021 20:10:19.996 INFO [http-apr-6060-exec-8] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01-Feb-2021 20:10:20.210 INFO [http-apr-6060-exec-8] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 795 ms
+01-Feb-2021 20:10:20.284 INFO [http-apr-6060-exec-8] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+01-Feb-2021 20:10:20.297 INFO [http-apr-6060-exec-8] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:10:20 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:10:20.304 INFO [http-apr-6060-exec-8] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+01-Feb-2021 20:10:20.633 INFO [http-apr-6060-exec-8] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+01-Feb-2021 20:10:20.634 INFO [http-apr-6060-exec-8] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+01-Feb-2021 20:10:20.636 INFO [http-apr-6060-exec-8] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+01-Feb-2021 20:10:20.637 INFO [http-apr-6060-exec-8] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+01-Feb-2021 20:10:20.638 INFO [http-apr-6060-exec-8] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+01-Feb-2021 20:10:20.640 INFO [http-apr-6060-exec-8] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+01-Feb-2021 20:10:20.641 INFO [http-apr-6060-exec-8] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+01-Feb-2021 20:10:20.642 INFO [http-apr-6060-exec-8] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+01-Feb-2021 20:10:20.643 INFO [http-apr-6060-exec-8] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+01-Feb-2021 20:10:20.645 INFO [http-apr-6060-exec-8] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+01-Feb-2021 20:10:20.649 INFO [http-apr-6060-exec-8] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+01-Feb-2021 20:10:20.650 INFO [http-apr-6060-exec-8] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+01-Feb-2021 20:10:20.652 INFO [http-apr-6060-exec-8] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+01-Feb-2021 20:10:20.653 INFO [http-apr-6060-exec-8] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+01-Feb-2021 20:10:20.654 INFO [http-apr-6060-exec-8] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+01-Feb-2021 20:10:20.849 INFO [http-apr-6060-exec-8] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+01-Feb-2021 20:10:20.940 INFO [http-apr-6060-exec-8] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+01-Feb-2021 20:10:21.085 INFO [http-apr-6060-exec-8] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 801 ms
+01-Feb-2021 20:10:21.091 INFO [http-apr-6060-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] is completed
+01-Feb-2021 20:10:51.532 INFO [http-apr-6060-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] has started
+01-Feb-2021 20:10:51.563 INFO [http-apr-6060-exec-11] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:10:20 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:10:51.594 INFO [http-apr-6060-exec-11] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Feb 01 20:10:19 CST 2021]; root of context hierarchy
+01-Feb-2021 20:10:56.248 INFO [http-apr-6060-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Feb-2021 20:10:56.403 INFO [http-apr-6060-exec-11] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+01-Feb-2021 20:10:56.852 INFO [http-apr-6060-exec-11] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Feb 01 20:10:56 CST 2021]; root of context hierarchy
+01-Feb-2021 20:10:57.083 INFO [http-apr-6060-exec-11] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01-Feb-2021 20:10:57.380 INFO [http-apr-6060-exec-11] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 977 ms
+01-Feb-2021 20:10:57.469 INFO [http-apr-6060-exec-11] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+01-Feb-2021 20:10:57.514 INFO [http-apr-6060-exec-11] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:10:57 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:10:57.528 INFO [http-apr-6060-exec-11] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+01-Feb-2021 20:10:57.932 INFO [http-apr-6060-exec-11] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+01-Feb-2021 20:10:57.933 INFO [http-apr-6060-exec-11] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+01-Feb-2021 20:10:57.934 INFO [http-apr-6060-exec-11] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+01-Feb-2021 20:10:57.935 INFO [http-apr-6060-exec-11] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+01-Feb-2021 20:10:57.936 INFO [http-apr-6060-exec-11] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+01-Feb-2021 20:10:57.937 INFO [http-apr-6060-exec-11] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+01-Feb-2021 20:10:57.939 INFO [http-apr-6060-exec-11] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+01-Feb-2021 20:10:57.940 INFO [http-apr-6060-exec-11] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+01-Feb-2021 20:10:57.942 INFO [http-apr-6060-exec-11] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+01-Feb-2021 20:10:57.958 INFO [http-apr-6060-exec-11] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+01-Feb-2021 20:10:57.960 INFO [http-apr-6060-exec-11] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+01-Feb-2021 20:10:57.964 INFO [http-apr-6060-exec-11] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+01-Feb-2021 20:10:57.965 INFO [http-apr-6060-exec-11] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+01-Feb-2021 20:10:57.967 INFO [http-apr-6060-exec-11] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+01-Feb-2021 20:10:57.970 INFO [http-apr-6060-exec-11] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+01-Feb-2021 20:10:58.177 INFO [http-apr-6060-exec-11] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+01-Feb-2021 20:10:58.270 INFO [http-apr-6060-exec-11] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+01-Feb-2021 20:10:58.424 INFO [http-apr-6060-exec-11] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 955 ms
+01-Feb-2021 20:10:58.432 INFO [http-apr-6060-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] is completed
+01-Feb-2021 20:10:58.641 INFO [http-apr-6060-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] has started
+01-Feb-2021 20:10:58.645 INFO [http-apr-6060-exec-14] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:10:57 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:10:58.666 INFO [http-apr-6060-exec-14] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Feb 01 20:10:56 CST 2021]; root of context hierarchy
+01-Feb-2021 20:11:03.362 INFO [http-apr-6060-exec-14] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Feb-2021 20:11:03.479 INFO [http-apr-6060-exec-14] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+01-Feb-2021 20:11:03.946 INFO [http-apr-6060-exec-14] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Feb 01 20:11:03 CST 2021]; root of context hierarchy
+01-Feb-2021 20:11:04.120 INFO [http-apr-6060-exec-14] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01-Feb-2021 20:11:04.362 INFO [http-apr-6060-exec-14] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 882 ms
+01-Feb-2021 20:11:04.497 INFO [http-apr-6060-exec-14] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+01-Feb-2021 20:11:04.509 INFO [http-apr-6060-exec-14] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:11:04 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:11:04.511 INFO [http-apr-6060-exec-14] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+01-Feb-2021 20:11:04.962 INFO [http-apr-6060-exec-14] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+01-Feb-2021 20:11:04.963 INFO [http-apr-6060-exec-14] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+01-Feb-2021 20:11:04.964 INFO [http-apr-6060-exec-14] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+01-Feb-2021 20:11:04.965 INFO [http-apr-6060-exec-14] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+01-Feb-2021 20:11:04.966 INFO [http-apr-6060-exec-14] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+01-Feb-2021 20:11:04.968 INFO [http-apr-6060-exec-14] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+01-Feb-2021 20:11:04.969 INFO [http-apr-6060-exec-14] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+01-Feb-2021 20:11:04.970 INFO [http-apr-6060-exec-14] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+01-Feb-2021 20:11:04.971 INFO [http-apr-6060-exec-14] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+01-Feb-2021 20:11:04.972 INFO [http-apr-6060-exec-14] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+01-Feb-2021 20:11:04.974 INFO [http-apr-6060-exec-14] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+01-Feb-2021 20:11:04.975 INFO [http-apr-6060-exec-14] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+01-Feb-2021 20:11:04.976 INFO [http-apr-6060-exec-14] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+01-Feb-2021 20:11:04.978 INFO [http-apr-6060-exec-14] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+01-Feb-2021 20:11:04.979 INFO [http-apr-6060-exec-14] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+01-Feb-2021 20:11:05.238 INFO [http-apr-6060-exec-14] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+01-Feb-2021 20:11:05.318 INFO [http-apr-6060-exec-14] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+01-Feb-2021 20:11:05.495 INFO [http-apr-6060-exec-14] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 997 ms
+01-Feb-2021 20:11:05.499 INFO [http-apr-6060-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] is completed
+01-Feb-2021 20:11:08.130 INFO [http-apr-6060-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] has started
+01-Feb-2021 20:11:08.138 INFO [http-apr-6060-exec-18] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:11:04 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:11:08.149 INFO [http-apr-6060-exec-18] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Feb 01 20:11:03 CST 2021]; root of context hierarchy
+01-Feb-2021 20:11:11.968 INFO [http-apr-6060-exec-18] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Feb-2021 20:11:12.070 INFO [http-apr-6060-exec-18] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+01-Feb-2021 20:11:12.487 INFO [http-apr-6060-exec-18] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Feb 01 20:11:12 CST 2021]; root of context hierarchy
+01-Feb-2021 20:11:13.283 INFO [http-apr-6060-exec-18] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01-Feb-2021 20:11:13.528 INFO [http-apr-6060-exec-18] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1456 ms
+01-Feb-2021 20:11:13.617 INFO [http-apr-6060-exec-18] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+01-Feb-2021 20:11:13.630 INFO [http-apr-6060-exec-18] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:11:13 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:11:13.638 INFO [http-apr-6060-exec-18] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+01-Feb-2021 20:11:14.616 INFO [http-apr-6060-exec-18] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+01-Feb-2021 20:11:14.618 INFO [http-apr-6060-exec-18] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+01-Feb-2021 20:11:14.619 INFO [http-apr-6060-exec-18] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+01-Feb-2021 20:11:14.620 INFO [http-apr-6060-exec-18] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+01-Feb-2021 20:11:14.622 INFO [http-apr-6060-exec-18] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+01-Feb-2021 20:11:14.623 INFO [http-apr-6060-exec-18] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+01-Feb-2021 20:11:14.624 INFO [http-apr-6060-exec-18] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+01-Feb-2021 20:11:14.626 INFO [http-apr-6060-exec-18] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+01-Feb-2021 20:11:14.631 INFO [http-apr-6060-exec-18] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+01-Feb-2021 20:11:14.633 INFO [http-apr-6060-exec-18] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+01-Feb-2021 20:11:14.634 INFO [http-apr-6060-exec-18] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+01-Feb-2021 20:11:14.636 INFO [http-apr-6060-exec-18] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+01-Feb-2021 20:11:14.637 INFO [http-apr-6060-exec-18] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+01-Feb-2021 20:11:14.638 INFO [http-apr-6060-exec-18] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+01-Feb-2021 20:11:14.641 INFO [http-apr-6060-exec-18] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+01-Feb-2021 20:11:14.832 INFO [http-apr-6060-exec-18] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+01-Feb-2021 20:11:14.918 INFO [http-apr-6060-exec-18] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+01-Feb-2021 20:11:15.070 INFO [http-apr-6060-exec-18] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 1453 ms
+01-Feb-2021 20:11:15.076 INFO [http-apr-6060-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] is completed
+01-Feb-2021 20:11:17.396 INFO [http-apr-6060-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] has started
+01-Feb-2021 20:11:17.400 INFO [http-apr-6060-exec-21] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:11:13 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:11:17.408 INFO [http-apr-6060-exec-21] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Feb 01 20:11:12 CST 2021]; root of context hierarchy
+01-Feb-2021 20:11:23.059 INFO [http-apr-6060-exec-21] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Feb-2021 20:11:23.253 INFO [http-apr-6060-exec-21] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+01-Feb-2021 20:11:24.093 INFO [http-apr-6060-exec-21] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Feb 01 20:11:24 CST 2021]; root of context hierarchy
+01-Feb-2021 20:11:24.292 INFO [http-apr-6060-exec-21] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01-Feb-2021 20:11:24.694 INFO [http-apr-6060-exec-21] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1435 ms
+01-Feb-2021 20:11:24.781 INFO [http-apr-6060-exec-21] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+01-Feb-2021 20:11:24.800 INFO [http-apr-6060-exec-21] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:11:24 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:11:24.810 INFO [http-apr-6060-exec-21] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+01-Feb-2021 20:11:25.240 INFO [http-apr-6060-exec-21] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+01-Feb-2021 20:11:25.242 INFO [http-apr-6060-exec-21] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+01-Feb-2021 20:11:25.243 INFO [http-apr-6060-exec-21] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+01-Feb-2021 20:11:25.244 INFO [http-apr-6060-exec-21] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+01-Feb-2021 20:11:25.245 INFO [http-apr-6060-exec-21] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+01-Feb-2021 20:11:25.246 INFO [http-apr-6060-exec-21] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+01-Feb-2021 20:11:25.248 INFO [http-apr-6060-exec-21] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+01-Feb-2021 20:11:25.250 INFO [http-apr-6060-exec-21] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+01-Feb-2021 20:11:25.251 INFO [http-apr-6060-exec-21] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+01-Feb-2021 20:11:25.253 INFO [http-apr-6060-exec-21] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+01-Feb-2021 20:11:25.254 INFO [http-apr-6060-exec-21] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+01-Feb-2021 20:11:25.257 INFO [http-apr-6060-exec-21] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+01-Feb-2021 20:11:25.259 INFO [http-apr-6060-exec-21] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+01-Feb-2021 20:11:25.260 INFO [http-apr-6060-exec-21] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+01-Feb-2021 20:11:25.262 INFO [http-apr-6060-exec-21] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+01-Feb-2021 20:11:25.595 INFO [http-apr-6060-exec-21] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+01-Feb-2021 20:11:25.721 INFO [http-apr-6060-exec-21] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+01-Feb-2021 20:11:25.861 INFO [http-apr-6060-exec-21] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 1080 ms
+01-Feb-2021 20:11:25.866 INFO [http-apr-6060-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] is completed
+01-Feb-2021 20:13:38.977 INFO [http-apr-6060-exec-29] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] has started
+01-Feb-2021 20:13:38.981 INFO [http-apr-6060-exec-29] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:11:24 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:13:39.009 INFO [http-apr-6060-exec-29] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Feb 01 20:11:24 CST 2021]; root of context hierarchy
+01-Feb-2021 20:13:43.484 INFO [http-apr-6060-exec-29] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Feb-2021 20:13:43.584 INFO [http-apr-6060-exec-29] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+01-Feb-2021 20:13:43.926 INFO [http-apr-6060-exec-29] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Feb 01 20:13:43 CST 2021]; root of context hierarchy
+01-Feb-2021 20:13:44.096 INFO [http-apr-6060-exec-29] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01-Feb-2021 20:13:44.280 INFO [http-apr-6060-exec-29] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 695 ms
+01-Feb-2021 20:13:44.335 INFO [http-apr-6060-exec-29] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+01-Feb-2021 20:13:44.347 INFO [http-apr-6060-exec-29] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:13:44 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:13:44.355 INFO [http-apr-6060-exec-29] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+01-Feb-2021 20:13:44.642 INFO [http-apr-6060-exec-29] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+01-Feb-2021 20:13:44.643 INFO [http-apr-6060-exec-29] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+01-Feb-2021 20:13:44.645 INFO [http-apr-6060-exec-29] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+01-Feb-2021 20:13:44.646 INFO [http-apr-6060-exec-29] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+01-Feb-2021 20:13:44.647 INFO [http-apr-6060-exec-29] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+01-Feb-2021 20:13:44.648 INFO [http-apr-6060-exec-29] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+01-Feb-2021 20:13:44.650 INFO [http-apr-6060-exec-29] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+01-Feb-2021 20:13:44.651 INFO [http-apr-6060-exec-29] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+01-Feb-2021 20:13:44.652 INFO [http-apr-6060-exec-29] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+01-Feb-2021 20:13:44.657 INFO [http-apr-6060-exec-29] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+01-Feb-2021 20:13:44.658 INFO [http-apr-6060-exec-29] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+01-Feb-2021 20:13:44.660 INFO [http-apr-6060-exec-29] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+01-Feb-2021 20:13:44.661 INFO [http-apr-6060-exec-29] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+01-Feb-2021 20:13:44.663 INFO [http-apr-6060-exec-29] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+01-Feb-2021 20:13:44.665 INFO [http-apr-6060-exec-29] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+01-Feb-2021 20:13:44.833 INFO [http-apr-6060-exec-29] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+01-Feb-2021 20:13:44.921 INFO [http-apr-6060-exec-29] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+01-Feb-2021 20:13:45.042 INFO [http-apr-6060-exec-29] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 706 ms
+01-Feb-2021 20:13:45.046 INFO [http-apr-6060-exec-29] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] is completed
+01-Feb-2021 20:14:13.266 INFO [http-apr-6060-exec-31] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] has started
+01-Feb-2021 20:14:13.271 INFO [http-apr-6060-exec-31] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:13:44 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:14:13.281 INFO [http-apr-6060-exec-31] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Feb 01 20:13:43 CST 2021]; root of context hierarchy
+01-Feb-2021 20:14:16.764 INFO [http-apr-6060-exec-31] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Feb-2021 20:14:16.861 INFO [http-apr-6060-exec-31] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+01-Feb-2021 20:14:17.203 INFO [http-apr-6060-exec-31] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Feb 01 20:14:17 CST 2021]; root of context hierarchy
+01-Feb-2021 20:14:17.369 INFO [http-apr-6060-exec-31] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01-Feb-2021 20:14:17.575 INFO [http-apr-6060-exec-31] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 713 ms
+01-Feb-2021 20:14:17.634 INFO [http-apr-6060-exec-31] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+01-Feb-2021 20:14:17.647 INFO [http-apr-6060-exec-31] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:14:17 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:14:17.652 INFO [http-apr-6060-exec-31] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+01-Feb-2021 20:14:17.991 INFO [http-apr-6060-exec-31] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+01-Feb-2021 20:14:17.992 INFO [http-apr-6060-exec-31] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+01-Feb-2021 20:14:17.993 INFO [http-apr-6060-exec-31] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+01-Feb-2021 20:14:17.994 INFO [http-apr-6060-exec-31] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+01-Feb-2021 20:14:17.995 INFO [http-apr-6060-exec-31] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+01-Feb-2021 20:14:17.996 INFO [http-apr-6060-exec-31] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+01-Feb-2021 20:14:17.998 INFO [http-apr-6060-exec-31] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+01-Feb-2021 20:14:17.999 INFO [http-apr-6060-exec-31] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+01-Feb-2021 20:14:18.000 INFO [http-apr-6060-exec-31] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+01-Feb-2021 20:14:18.001 INFO [http-apr-6060-exec-31] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+01-Feb-2021 20:14:18.003 INFO [http-apr-6060-exec-31] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+01-Feb-2021 20:14:18.004 INFO [http-apr-6060-exec-31] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+01-Feb-2021 20:14:18.005 INFO [http-apr-6060-exec-31] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+01-Feb-2021 20:14:18.006 INFO [http-apr-6060-exec-31] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+01-Feb-2021 20:14:18.008 INFO [http-apr-6060-exec-31] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+01-Feb-2021 20:14:18.175 INFO [http-apr-6060-exec-31] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+01-Feb-2021 20:14:18.238 INFO [http-apr-6060-exec-31] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+01-Feb-2021 20:14:18.356 INFO [http-apr-6060-exec-31] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 722 ms
+01-Feb-2021 20:14:18.361 INFO [http-apr-6060-exec-31] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] is completed
+01-Feb-2021 20:14:36.764 WARNING [http-apr-6060-exec-19] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 20:16:04.604 WARNING [http-apr-6060-exec-37] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 20:16:09.584 WARNING [http-apr-6060-exec-37] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 20:17:15.392 INFO [http-apr-6060-exec-44] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] has started
+01-Feb-2021 20:17:15.411 INFO [http-apr-6060-exec-44] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:14:17 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:17:15.510 INFO [http-apr-6060-exec-44] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Feb 01 20:14:17 CST 2021]; root of context hierarchy
+01-Feb-2021 20:17:16.917 WARNING [http-apr-6060-exec-44] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [sygealoc] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+01-Feb-2021 20:17:22.442 INFO [http-apr-6060-exec-44] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Feb-2021 20:17:22.566 INFO [http-apr-6060-exec-44] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+01-Feb-2021 20:17:22.930 INFO [http-apr-6060-exec-44] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Feb 01 20:17:22 CST 2021]; root of context hierarchy
+01-Feb-2021 20:17:23.113 INFO [http-apr-6060-exec-44] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01-Feb-2021 20:17:23.317 INFO [http-apr-6060-exec-44] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 751 ms
+01-Feb-2021 20:17:23.393 INFO [http-apr-6060-exec-44] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+01-Feb-2021 20:17:23.417 INFO [http-apr-6060-exec-44] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:17:23 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:17:23.421 INFO [http-apr-6060-exec-44] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+01-Feb-2021 20:17:23.776 INFO [http-apr-6060-exec-44] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+01-Feb-2021 20:17:23.778 INFO [http-apr-6060-exec-44] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+01-Feb-2021 20:17:23.779 INFO [http-apr-6060-exec-44] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+01-Feb-2021 20:17:23.780 INFO [http-apr-6060-exec-44] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+01-Feb-2021 20:17:23.781 INFO [http-apr-6060-exec-44] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+01-Feb-2021 20:17:23.782 INFO [http-apr-6060-exec-44] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+01-Feb-2021 20:17:23.783 INFO [http-apr-6060-exec-44] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+01-Feb-2021 20:17:23.784 INFO [http-apr-6060-exec-44] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+01-Feb-2021 20:17:23.785 INFO [http-apr-6060-exec-44] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+01-Feb-2021 20:17:23.789 INFO [http-apr-6060-exec-44] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+01-Feb-2021 20:17:23.791 INFO [http-apr-6060-exec-44] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+01-Feb-2021 20:17:23.792 INFO [http-apr-6060-exec-44] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+01-Feb-2021 20:17:23.793 INFO [http-apr-6060-exec-44] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+01-Feb-2021 20:17:23.795 INFO [http-apr-6060-exec-44] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+01-Feb-2021 20:17:23.797 INFO [http-apr-6060-exec-44] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+01-Feb-2021 20:17:23.974 INFO [http-apr-6060-exec-44] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+01-Feb-2021 20:17:24.099 INFO [http-apr-6060-exec-44] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+01-Feb-2021 20:17:24.280 INFO [http-apr-6060-exec-44] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 886 ms
+01-Feb-2021 20:17:24.286 INFO [http-apr-6060-exec-44] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] is completed
+01-Feb-2021 20:17:36.878 INFO [http-apr-6060-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] has started
+01-Feb-2021 20:17:36.882 INFO [http-apr-6060-exec-36] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:17:23 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:17:36.914 INFO [http-apr-6060-exec-36] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Feb 01 20:17:22 CST 2021]; root of context hierarchy
+01-Feb-2021 20:17:40.857 INFO [http-apr-6060-exec-36] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Feb-2021 20:17:40.959 INFO [http-apr-6060-exec-36] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+01-Feb-2021 20:17:41.302 INFO [http-apr-6060-exec-36] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Feb 01 20:17:41 CST 2021]; root of context hierarchy
+01-Feb-2021 20:17:41.493 INFO [http-apr-6060-exec-36] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01-Feb-2021 20:17:41.684 INFO [http-apr-6060-exec-36] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 725 ms
+01-Feb-2021 20:17:41.744 INFO [http-apr-6060-exec-36] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+01-Feb-2021 20:17:41.756 INFO [http-apr-6060-exec-36] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:17:41 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:17:41.759 INFO [http-apr-6060-exec-36] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+01-Feb-2021 20:17:42.036 INFO [http-apr-6060-exec-36] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+01-Feb-2021 20:17:42.038 INFO [http-apr-6060-exec-36] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+01-Feb-2021 20:17:42.039 INFO [http-apr-6060-exec-36] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+01-Feb-2021 20:17:42.040 INFO [http-apr-6060-exec-36] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+01-Feb-2021 20:17:42.041 INFO [http-apr-6060-exec-36] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+01-Feb-2021 20:17:42.042 INFO [http-apr-6060-exec-36] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+01-Feb-2021 20:17:42.043 INFO [http-apr-6060-exec-36] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+01-Feb-2021 20:17:42.044 INFO [http-apr-6060-exec-36] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+01-Feb-2021 20:17:42.048 INFO [http-apr-6060-exec-36] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+01-Feb-2021 20:17:42.050 INFO [http-apr-6060-exec-36] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+01-Feb-2021 20:17:42.051 INFO [http-apr-6060-exec-36] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+01-Feb-2021 20:17:42.053 INFO [http-apr-6060-exec-36] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+01-Feb-2021 20:17:42.054 INFO [http-apr-6060-exec-36] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+01-Feb-2021 20:17:42.055 INFO [http-apr-6060-exec-36] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+01-Feb-2021 20:17:42.058 INFO [http-apr-6060-exec-36] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+01-Feb-2021 20:17:42.233 INFO [http-apr-6060-exec-36] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+01-Feb-2021 20:17:42.305 INFO [http-apr-6060-exec-36] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+01-Feb-2021 20:17:42.424 INFO [http-apr-6060-exec-36] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 679 ms
+01-Feb-2021 20:17:42.429 INFO [http-apr-6060-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] is completed
+01-Feb-2021 20:17:56.656 INFO [http-apr-6060-exec-39] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] has started
+01-Feb-2021 20:17:56.660 INFO [http-apr-6060-exec-39] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:17:41 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:17:56.670 INFO [http-apr-6060-exec-39] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Feb 01 20:17:41 CST 2021]; root of context hierarchy
+01-Feb-2021 20:17:59.884 INFO [http-apr-6060-exec-39] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Feb-2021 20:17:59.981 INFO [http-apr-6060-exec-39] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+01-Feb-2021 20:18:00.317 INFO [http-apr-6060-exec-39] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Feb 01 20:18:00 CST 2021]; root of context hierarchy
+01-Feb-2021 20:18:00.504 INFO [http-apr-6060-exec-39] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01-Feb-2021 20:18:00.685 INFO [http-apr-6060-exec-39] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 704 ms
+01-Feb-2021 20:18:00.743 INFO [http-apr-6060-exec-39] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+01-Feb-2021 20:18:00.757 INFO [http-apr-6060-exec-39] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:18:00 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:18:00.764 INFO [http-apr-6060-exec-39] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+01-Feb-2021 20:18:01.049 INFO [http-apr-6060-exec-39] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+01-Feb-2021 20:18:01.051 INFO [http-apr-6060-exec-39] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+01-Feb-2021 20:18:01.053 INFO [http-apr-6060-exec-39] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+01-Feb-2021 20:18:01.054 INFO [http-apr-6060-exec-39] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+01-Feb-2021 20:18:01.055 INFO [http-apr-6060-exec-39] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+01-Feb-2021 20:18:01.056 INFO [http-apr-6060-exec-39] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+01-Feb-2021 20:18:01.057 INFO [http-apr-6060-exec-39] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+01-Feb-2021 20:18:01.058 INFO [http-apr-6060-exec-39] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+01-Feb-2021 20:18:01.061 INFO [http-apr-6060-exec-39] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+01-Feb-2021 20:18:01.063 INFO [http-apr-6060-exec-39] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+01-Feb-2021 20:18:01.064 INFO [http-apr-6060-exec-39] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+01-Feb-2021 20:18:01.067 INFO [http-apr-6060-exec-39] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+01-Feb-2021 20:18:01.068 INFO [http-apr-6060-exec-39] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+01-Feb-2021 20:18:01.070 INFO [http-apr-6060-exec-39] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+01-Feb-2021 20:18:01.071 INFO [http-apr-6060-exec-39] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+01-Feb-2021 20:18:01.257 INFO [http-apr-6060-exec-39] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+01-Feb-2021 20:18:01.327 INFO [http-apr-6060-exec-39] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+01-Feb-2021 20:18:01.470 INFO [http-apr-6060-exec-39] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 725 ms
+01-Feb-2021 20:18:01.475 INFO [http-apr-6060-exec-39] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] is completed
+01-Feb-2021 20:18:13.626 SEVERE [http-apr-6060-exec-51] supernova.pfe.dao.D_Reservation.update null
+ java.sql.SQLException: Data truncated for column 'ETAT' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2794)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2458)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2375)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2359)
+	at supernova.pfe.dao.D_Reservation.update(D_Reservation.java:68)
+	at supernova.pfe.controller.ReservationController.handleRequestInternal(ReservationController.java:52)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:154)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:945)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+01-Feb-2021 20:18:14.652 WARNING [http-apr-6060-exec-47] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 20:19:01.227 WARNING [http-apr-6060-exec-52] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 20:19:03.931 SEVERE [http-apr-6060-exec-54] supernova.pfe.dao.D_Reservation.update null
+ java.sql.SQLException: Data truncated for column 'ETAT' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2794)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2458)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2375)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2359)
+	at supernova.pfe.dao.D_Reservation.update(D_Reservation.java:68)
+	at supernova.pfe.controller.ReservationController.handleRequestInternal(ReservationController.java:52)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:154)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:945)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+01-Feb-2021 20:19:04.785 WARNING [http-apr-6060-exec-57] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 20:19:58.131 INFO [http-apr-6060-exec-50] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] has started
+01-Feb-2021 20:19:58.135 INFO [http-apr-6060-exec-50] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:18:00 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:19:58.198 INFO [http-apr-6060-exec-50] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Feb 01 20:18:00 CST 2021]; root of context hierarchy
+01-Feb-2021 20:19:58.217 WARNING [http-apr-6060-exec-50] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [sygealoc] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+01-Feb-2021 20:20:02.123 INFO [http-apr-6060-exec-50] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Feb-2021 20:20:02.231 INFO [http-apr-6060-exec-50] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+01-Feb-2021 20:20:02.605 INFO [http-apr-6060-exec-50] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Feb 01 20:20:02 CST 2021]; root of context hierarchy
+01-Feb-2021 20:20:02.775 INFO [http-apr-6060-exec-50] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01-Feb-2021 20:20:02.960 INFO [http-apr-6060-exec-50] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 729 ms
+01-Feb-2021 20:20:03.034 INFO [http-apr-6060-exec-50] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+01-Feb-2021 20:20:03.045 INFO [http-apr-6060-exec-50] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:20:03 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:20:03.051 INFO [http-apr-6060-exec-50] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+01-Feb-2021 20:20:03.318 INFO [http-apr-6060-exec-50] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+01-Feb-2021 20:20:03.320 INFO [http-apr-6060-exec-50] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+01-Feb-2021 20:20:03.321 INFO [http-apr-6060-exec-50] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+01-Feb-2021 20:20:03.322 INFO [http-apr-6060-exec-50] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+01-Feb-2021 20:20:03.323 INFO [http-apr-6060-exec-50] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+01-Feb-2021 20:20:03.324 INFO [http-apr-6060-exec-50] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+01-Feb-2021 20:20:03.325 INFO [http-apr-6060-exec-50] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+01-Feb-2021 20:20:03.327 INFO [http-apr-6060-exec-50] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+01-Feb-2021 20:20:03.328 INFO [http-apr-6060-exec-50] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+01-Feb-2021 20:20:03.332 INFO [http-apr-6060-exec-50] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+01-Feb-2021 20:20:03.333 INFO [http-apr-6060-exec-50] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+01-Feb-2021 20:20:03.335 INFO [http-apr-6060-exec-50] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+01-Feb-2021 20:20:03.336 INFO [http-apr-6060-exec-50] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+01-Feb-2021 20:20:03.337 INFO [http-apr-6060-exec-50] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+01-Feb-2021 20:20:03.339 INFO [http-apr-6060-exec-50] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+01-Feb-2021 20:20:03.516 INFO [http-apr-6060-exec-50] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+01-Feb-2021 20:20:03.576 INFO [http-apr-6060-exec-50] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+01-Feb-2021 20:20:03.690 INFO [http-apr-6060-exec-50] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 656 ms
+01-Feb-2021 20:20:03.695 INFO [http-apr-6060-exec-50] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] is completed
+01-Feb-2021 20:21:26.329 INFO [http-apr-6060-exec-62] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] has started
+01-Feb-2021 20:21:26.364 INFO [http-apr-6060-exec-62] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:20:03 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:21:26.441 INFO [http-apr-6060-exec-62] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Feb 01 20:20:02 CST 2021]; root of context hierarchy
+01-Feb-2021 20:21:30.273 INFO [http-apr-6060-exec-62] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Feb-2021 20:21:30.382 INFO [http-apr-6060-exec-62] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+01-Feb-2021 20:21:30.743 INFO [http-apr-6060-exec-62] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Feb 01 20:21:30 CST 2021]; root of context hierarchy
+01-Feb-2021 20:21:30.912 INFO [http-apr-6060-exec-62] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01-Feb-2021 20:21:31.102 INFO [http-apr-6060-exec-62] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 720 ms
+01-Feb-2021 20:21:31.172 INFO [http-apr-6060-exec-62] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+01-Feb-2021 20:21:31.184 INFO [http-apr-6060-exec-62] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:21:31 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:21:31.187 INFO [http-apr-6060-exec-62] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+01-Feb-2021 20:21:31.459 INFO [http-apr-6060-exec-62] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+01-Feb-2021 20:21:31.460 INFO [http-apr-6060-exec-62] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+01-Feb-2021 20:21:31.461 INFO [http-apr-6060-exec-62] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+01-Feb-2021 20:21:31.462 INFO [http-apr-6060-exec-62] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+01-Feb-2021 20:21:31.463 INFO [http-apr-6060-exec-62] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+01-Feb-2021 20:21:31.465 INFO [http-apr-6060-exec-62] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+01-Feb-2021 20:21:31.466 INFO [http-apr-6060-exec-62] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+01-Feb-2021 20:21:31.467 INFO [http-apr-6060-exec-62] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+01-Feb-2021 20:21:31.468 INFO [http-apr-6060-exec-62] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+01-Feb-2021 20:21:31.469 INFO [http-apr-6060-exec-62] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+01-Feb-2021 20:21:31.471 INFO [http-apr-6060-exec-62] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+01-Feb-2021 20:21:31.472 INFO [http-apr-6060-exec-62] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+01-Feb-2021 20:21:31.473 INFO [http-apr-6060-exec-62] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+01-Feb-2021 20:21:31.474 INFO [http-apr-6060-exec-62] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+01-Feb-2021 20:21:31.476 INFO [http-apr-6060-exec-62] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+01-Feb-2021 20:21:31.651 INFO [http-apr-6060-exec-62] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+01-Feb-2021 20:21:31.733 INFO [http-apr-6060-exec-62] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+01-Feb-2021 20:21:31.861 INFO [http-apr-6060-exec-62] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 689 ms
+01-Feb-2021 20:21:31.867 INFO [http-apr-6060-exec-62] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] is completed
+01-Feb-2021 20:23:01.983 INFO [http-apr-6060-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] has started
+01-Feb-2021 20:23:01.985 INFO [http-apr-6060-exec-66] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:21:31 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:23:02.002 INFO [http-apr-6060-exec-66] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Feb 01 20:21:30 CST 2021]; root of context hierarchy
+01-Feb-2021 20:23:05.607 INFO [http-apr-6060-exec-66] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Feb-2021 20:23:05.739 INFO [http-apr-6060-exec-66] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+01-Feb-2021 20:23:06.108 INFO [http-apr-6060-exec-66] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Feb 01 20:23:06 CST 2021]; root of context hierarchy
+01-Feb-2021 20:23:06.296 INFO [http-apr-6060-exec-66] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01-Feb-2021 20:23:06.500 INFO [http-apr-6060-exec-66] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 761 ms
+01-Feb-2021 20:23:06.565 INFO [http-apr-6060-exec-66] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+01-Feb-2021 20:23:06.578 INFO [http-apr-6060-exec-66] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:23:06 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:23:06.582 INFO [http-apr-6060-exec-66] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+01-Feb-2021 20:23:06.873 INFO [http-apr-6060-exec-66] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+01-Feb-2021 20:23:06.875 INFO [http-apr-6060-exec-66] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+01-Feb-2021 20:23:06.876 INFO [http-apr-6060-exec-66] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+01-Feb-2021 20:23:06.877 INFO [http-apr-6060-exec-66] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+01-Feb-2021 20:23:06.878 INFO [http-apr-6060-exec-66] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+01-Feb-2021 20:23:06.880 INFO [http-apr-6060-exec-66] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+01-Feb-2021 20:23:06.881 INFO [http-apr-6060-exec-66] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+01-Feb-2021 20:23:06.882 INFO [http-apr-6060-exec-66] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+01-Feb-2021 20:23:06.883 INFO [http-apr-6060-exec-66] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+01-Feb-2021 20:23:06.885 INFO [http-apr-6060-exec-66] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+01-Feb-2021 20:23:06.887 INFO [http-apr-6060-exec-66] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+01-Feb-2021 20:23:06.889 INFO [http-apr-6060-exec-66] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+01-Feb-2021 20:23:06.892 INFO [http-apr-6060-exec-66] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+01-Feb-2021 20:23:06.894 INFO [http-apr-6060-exec-66] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+01-Feb-2021 20:23:06.896 INFO [http-apr-6060-exec-66] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+01-Feb-2021 20:23:07.080 INFO [http-apr-6060-exec-66] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+01-Feb-2021 20:23:07.157 INFO [http-apr-6060-exec-66] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+01-Feb-2021 20:23:07.282 INFO [http-apr-6060-exec-66] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 716 ms
+01-Feb-2021 20:23:07.289 INFO [http-apr-6060-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] is completed
+01-Feb-2021 20:23:24.314 INFO [http-apr-6060-exec-69] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] has started
+01-Feb-2021 20:23:24.318 INFO [http-apr-6060-exec-69] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:23:06 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:23:24.332 INFO [http-apr-6060-exec-69] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Feb 01 20:23:06 CST 2021]; root of context hierarchy
+01-Feb-2021 20:23:27.952 INFO [http-apr-6060-exec-69] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Feb-2021 20:23:28.056 INFO [http-apr-6060-exec-69] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+01-Feb-2021 20:23:28.423 INFO [http-apr-6060-exec-69] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Feb 01 20:23:28 CST 2021]; root of context hierarchy
+01-Feb-2021 20:23:28.611 INFO [http-apr-6060-exec-69] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01-Feb-2021 20:23:28.808 INFO [http-apr-6060-exec-69] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 752 ms
+01-Feb-2021 20:23:28.887 INFO [http-apr-6060-exec-69] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+01-Feb-2021 20:23:28.901 INFO [http-apr-6060-exec-69] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:23:28 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:23:28.904 INFO [http-apr-6060-exec-69] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+01-Feb-2021 20:23:29.191 INFO [http-apr-6060-exec-69] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+01-Feb-2021 20:23:29.193 INFO [http-apr-6060-exec-69] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+01-Feb-2021 20:23:29.194 INFO [http-apr-6060-exec-69] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+01-Feb-2021 20:23:29.195 INFO [http-apr-6060-exec-69] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+01-Feb-2021 20:23:29.196 INFO [http-apr-6060-exec-69] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+01-Feb-2021 20:23:29.198 INFO [http-apr-6060-exec-69] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+01-Feb-2021 20:23:29.199 INFO [http-apr-6060-exec-69] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+01-Feb-2021 20:23:29.200 INFO [http-apr-6060-exec-69] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+01-Feb-2021 20:23:29.202 INFO [http-apr-6060-exec-69] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+01-Feb-2021 20:23:29.204 INFO [http-apr-6060-exec-69] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+01-Feb-2021 20:23:29.205 INFO [http-apr-6060-exec-69] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+01-Feb-2021 20:23:29.207 INFO [http-apr-6060-exec-69] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+01-Feb-2021 20:23:29.208 INFO [http-apr-6060-exec-69] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+01-Feb-2021 20:23:29.209 INFO [http-apr-6060-exec-69] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+01-Feb-2021 20:23:29.211 INFO [http-apr-6060-exec-69] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+01-Feb-2021 20:23:29.402 INFO [http-apr-6060-exec-69] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+01-Feb-2021 20:23:29.496 INFO [http-apr-6060-exec-69] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+01-Feb-2021 20:23:29.642 INFO [http-apr-6060-exec-69] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 755 ms
+01-Feb-2021 20:23:29.648 INFO [http-apr-6060-exec-69] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] is completed
+01-Feb-2021 20:23:41.679 WARNING [http-apr-6060-exec-70] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 20:23:59.686 WARNING [http-apr-6060-exec-72] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 20:24:29.388 WARNING [http-apr-6060-exec-78] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 20:24:33.146 WARNING [http-apr-6060-exec-72] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 20:24:48.592 WARNING [http-apr-6060-exec-71] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 20:24:51.235 WARNING [http-apr-6060-exec-76] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 20:25:45.115 INFO [http-apr-6060-exec-76] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] has started
+01-Feb-2021 20:25:45.126 INFO [http-apr-6060-exec-76] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:23:28 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:25:45.179 INFO [http-apr-6060-exec-76] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Feb 01 20:23:28 CST 2021]; root of context hierarchy
+01-Feb-2021 20:25:46.618 WARNING [http-apr-6060-exec-76] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [sygealoc] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+01-Feb-2021 20:25:51.705 INFO [http-apr-6060-exec-76] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Feb-2021 20:25:51.848 INFO [http-apr-6060-exec-76] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+01-Feb-2021 20:25:52.304 INFO [http-apr-6060-exec-76] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Feb 01 20:25:52 CST 2021]; root of context hierarchy
+01-Feb-2021 20:25:52.667 INFO [http-apr-6060-exec-76] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01-Feb-2021 20:25:52.937 INFO [http-apr-6060-exec-76] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1087 ms
+01-Feb-2021 20:25:53.033 INFO [http-apr-6060-exec-76] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+01-Feb-2021 20:25:53.046 INFO [http-apr-6060-exec-76] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:25:53 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:25:53.052 INFO [http-apr-6060-exec-76] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+01-Feb-2021 20:25:53.497 INFO [http-apr-6060-exec-76] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+01-Feb-2021 20:25:53.498 INFO [http-apr-6060-exec-76] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+01-Feb-2021 20:25:53.500 INFO [http-apr-6060-exec-76] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+01-Feb-2021 20:25:53.502 INFO [http-apr-6060-exec-76] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+01-Feb-2021 20:25:53.503 INFO [http-apr-6060-exec-76] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+01-Feb-2021 20:25:53.504 INFO [http-apr-6060-exec-76] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+01-Feb-2021 20:25:53.505 INFO [http-apr-6060-exec-76] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+01-Feb-2021 20:25:53.506 INFO [http-apr-6060-exec-76] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+01-Feb-2021 20:25:53.508 INFO [http-apr-6060-exec-76] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+01-Feb-2021 20:25:53.514 INFO [http-apr-6060-exec-76] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+01-Feb-2021 20:25:53.515 INFO [http-apr-6060-exec-76] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+01-Feb-2021 20:25:53.516 INFO [http-apr-6060-exec-76] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+01-Feb-2021 20:25:53.517 INFO [http-apr-6060-exec-76] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+01-Feb-2021 20:25:53.521 INFO [http-apr-6060-exec-76] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+01-Feb-2021 20:25:53.524 INFO [http-apr-6060-exec-76] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+01-Feb-2021 20:25:53.767 INFO [http-apr-6060-exec-76] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+01-Feb-2021 20:25:53.858 INFO [http-apr-6060-exec-76] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+01-Feb-2021 20:25:54.010 INFO [http-apr-6060-exec-76] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 977 ms
+01-Feb-2021 20:25:54.017 INFO [http-apr-6060-exec-76] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] is completed
+01-Feb-2021 20:26:09.997 INFO [http-apr-6060-exec-74] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] has started
+01-Feb-2021 20:26:10.002 INFO [http-apr-6060-exec-74] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:25:53 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:26:10.025 INFO [http-apr-6060-exec-74] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Feb 01 20:25:52 CST 2021]; root of context hierarchy
+01-Feb-2021 20:26:13.744 INFO [http-apr-6060-exec-74] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Feb-2021 20:26:13.841 INFO [http-apr-6060-exec-74] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+01-Feb-2021 20:26:14.172 INFO [http-apr-6060-exec-74] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Feb 01 20:26:14 CST 2021]; root of context hierarchy
+01-Feb-2021 20:26:14.344 INFO [http-apr-6060-exec-74] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01-Feb-2021 20:26:14.528 INFO [http-apr-6060-exec-74] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 687 ms
+01-Feb-2021 20:26:14.588 INFO [http-apr-6060-exec-74] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+01-Feb-2021 20:26:14.599 INFO [http-apr-6060-exec-74] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:26:14 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:26:14.603 INFO [http-apr-6060-exec-74] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+01-Feb-2021 20:26:14.898 INFO [http-apr-6060-exec-74] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+01-Feb-2021 20:26:14.899 INFO [http-apr-6060-exec-74] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+01-Feb-2021 20:26:14.900 INFO [http-apr-6060-exec-74] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+01-Feb-2021 20:26:14.901 INFO [http-apr-6060-exec-74] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+01-Feb-2021 20:26:14.902 INFO [http-apr-6060-exec-74] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+01-Feb-2021 20:26:14.903 INFO [http-apr-6060-exec-74] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+01-Feb-2021 20:26:14.905 INFO [http-apr-6060-exec-74] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+01-Feb-2021 20:26:14.906 INFO [http-apr-6060-exec-74] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+01-Feb-2021 20:26:14.907 INFO [http-apr-6060-exec-74] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+01-Feb-2021 20:26:14.910 INFO [http-apr-6060-exec-74] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+01-Feb-2021 20:26:14.911 INFO [http-apr-6060-exec-74] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+01-Feb-2021 20:26:14.912 INFO [http-apr-6060-exec-74] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+01-Feb-2021 20:26:14.913 INFO [http-apr-6060-exec-74] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+01-Feb-2021 20:26:14.914 INFO [http-apr-6060-exec-74] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+01-Feb-2021 20:26:14.916 INFO [http-apr-6060-exec-74] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+01-Feb-2021 20:26:15.077 INFO [http-apr-6060-exec-74] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+01-Feb-2021 20:26:15.146 INFO [http-apr-6060-exec-74] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+01-Feb-2021 20:26:15.258 INFO [http-apr-6060-exec-74] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 670 ms
+01-Feb-2021 20:26:15.264 INFO [http-apr-6060-exec-74] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] is completed
+01-Feb-2021 20:26:26.997 SEVERE [http-apr-6060-exec-84] supernova.pfe.dao.D_Reservation.update null
+ java.sql.SQLException: Data truncated for column 'ETAT' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2794)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2458)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2375)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2359)
+	at supernova.pfe.dao.D_Reservation.update(D_Reservation.java:68)
+	at supernova.pfe.controller.ReservationController.handleRequestInternal(ReservationController.java:56)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:154)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:945)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+01-Feb-2021 20:26:27.924 WARNING [http-apr-6060-exec-85] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 20:26:55.385 WARNING [http-apr-6060-exec-88] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 20:26:57.963 SEVERE [http-apr-6060-exec-81] supernova.pfe.dao.D_Reservation.update null
+ java.sql.SQLException: Data truncated for column 'ETAT' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2794)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2458)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2375)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2359)
+	at supernova.pfe.dao.D_Reservation.update(D_Reservation.java:68)
+	at supernova.pfe.controller.ReservationController.handleRequestInternal(ReservationController.java:56)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:154)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:945)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+01-Feb-2021 20:26:58.974 WARNING [http-apr-6060-exec-86] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+01-Feb-2021 20:27:16.624 INFO [http-apr-6060-exec-93] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] has started
+01-Feb-2021 20:27:16.635 INFO [http-apr-6060-exec-93] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:26:14 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:27:16.672 INFO [http-apr-6060-exec-93] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Feb 01 20:26:14 CST 2021]; root of context hierarchy
+01-Feb-2021 20:27:16.698 WARNING [http-apr-6060-exec-93] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [sygealoc] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+01-Feb-2021 20:27:22.168 INFO [http-apr-6060-exec-93] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Feb-2021 20:27:22.284 INFO [http-apr-6060-exec-93] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+01-Feb-2021 20:27:22.737 INFO [http-apr-6060-exec-93] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon Feb 01 20:27:22 CST 2021]; root of context hierarchy
+01-Feb-2021 20:27:22.933 INFO [http-apr-6060-exec-93] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+01-Feb-2021 20:27:23.136 INFO [http-apr-6060-exec-93] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 852 ms
+01-Feb-2021 20:27:23.204 INFO [http-apr-6060-exec-93] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+01-Feb-2021 20:27:23.218 INFO [http-apr-6060-exec-93] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:27:23 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:27:23.228 INFO [http-apr-6060-exec-93] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+01-Feb-2021 20:27:23.615 INFO [http-apr-6060-exec-93] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+01-Feb-2021 20:27:23.616 INFO [http-apr-6060-exec-93] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+01-Feb-2021 20:27:23.617 INFO [http-apr-6060-exec-93] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+01-Feb-2021 20:27:23.620 INFO [http-apr-6060-exec-93] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+01-Feb-2021 20:27:23.621 INFO [http-apr-6060-exec-93] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+01-Feb-2021 20:27:23.622 INFO [http-apr-6060-exec-93] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+01-Feb-2021 20:27:23.624 INFO [http-apr-6060-exec-93] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+01-Feb-2021 20:27:23.625 INFO [http-apr-6060-exec-93] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+01-Feb-2021 20:27:23.626 INFO [http-apr-6060-exec-93] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+01-Feb-2021 20:27:23.630 INFO [http-apr-6060-exec-93] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+01-Feb-2021 20:27:23.632 INFO [http-apr-6060-exec-93] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+01-Feb-2021 20:27:23.633 INFO [http-apr-6060-exec-93] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+01-Feb-2021 20:27:23.634 INFO [http-apr-6060-exec-93] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+01-Feb-2021 20:27:23.635 INFO [http-apr-6060-exec-93] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+01-Feb-2021 20:27:23.638 INFO [http-apr-6060-exec-93] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+01-Feb-2021 20:27:23.865 INFO [http-apr-6060-exec-93] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+01-Feb-2021 20:27:23.945 INFO [http-apr-6060-exec-93] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+01-Feb-2021 20:27:24.100 INFO [http-apr-6060-exec-93] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 895 ms
+01-Feb-2021 20:27:24.124 INFO [http-apr-6060-exec-93] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/sygealoc] is completed
+01-Feb-2021 20:27:25.666 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+01-Feb-2021 20:27:25.668 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-6060"]
+01-Feb-2021 20:27:25.725 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-7009"]
+01-Feb-2021 20:27:25.778 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+01-Feb-2021 20:27:25.864 INFO [localhost-startStop-2] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Mon Feb 01 20:27:23 CST 2021]; parent: Root WebApplicationContext
+01-Feb-2021 20:27:25.884 INFO [localhost-startStop-2] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon Feb 01 20:27:22 CST 2021]; root of context hierarchy
+01-Feb-2021 20:27:25.920 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-6060"]
+01-Feb-2021 20:27:26.007 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-7009"]
+01-Feb-2021 20:27:26.064 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-6060"]
+01-Feb-2021 20:27:26.066 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-7009"]

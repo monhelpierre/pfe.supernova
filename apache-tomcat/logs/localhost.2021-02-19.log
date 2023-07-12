@@ -1,0 +1,5 @@
+19-Feb-2021 15:33:51.281 INFO [http-apr-6060-exec-3] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+19-Feb-2021 15:33:51.366 INFO [http-apr-6060-exec-3] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+19-Feb-2021 15:33:51.974 INFO [http-apr-6060-exec-3] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+19-Feb-2021 15:36:41.193 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+19-Feb-2021 15:36:41.203 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext

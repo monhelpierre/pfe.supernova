@@ -1,0 +1,1606 @@
+05-Feb-2021 08:59:56.634 INFO [http-apr-6060-exec-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 08:59:56.691 INFO [http-apr-6060-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 08:59:57.136 INFO [http-apr-6060-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:19:52.286 INFO [http-apr-6060-exec-16] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:19:52.329 WARNING [http-apr-6060-exec-16] org.apache.catalina.session.StandardSession.doWriteObject Cannot serialize session attribute rights for session 2D7406F871195CE281F5B75FA21F4FAF
+ java.io.NotSerializableException: supernova.pfe.model.UserPermission
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.ArrayList.writeObject(ArrayList.java:768)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1155)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1715)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1107)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5582)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3900)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1007)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:351)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:342)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 10:19:52.331 INFO [http-apr-6060-exec-16] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 10:19:55.988 INFO [http-apr-6060-exec-16] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 10:19:56.015 INFO [http-apr-6060-exec-16] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 10:19:56.359 WARNING [http-apr-6060-exec-16] org.apache.catalina.session.StandardSession.doReadObject Cannot deserialize session attribute rights for session 2D7406F871195CE281F5B75FA21F4FAF
+05-Feb-2021 10:19:56.381 INFO [http-apr-6060-exec-16] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:20:41.108 INFO [http-apr-6060-exec-19] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:20:41.112 INFO [http-apr-6060-exec-19] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 10:20:42.862 INFO [http-apr-6060-exec-19] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 10:20:42.897 INFO [http-apr-6060-exec-19] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 10:20:43.172 INFO [http-apr-6060-exec-19] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:20:43.412 INFO [http-apr-6060-exec-22] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:20:43.415 INFO [http-apr-6060-exec-22] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 10:20:44.665 INFO [http-apr-6060-exec-22] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 10:20:44.691 INFO [http-apr-6060-exec-22] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 10:20:44.957 INFO [http-apr-6060-exec-22] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:21:09.595 INFO [http-apr-6060-exec-23] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:21:09.598 INFO [http-apr-6060-exec-23] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 10:21:10.766 INFO [http-apr-6060-exec-23] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 10:21:10.796 INFO [http-apr-6060-exec-23] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 10:21:11.134 INFO [http-apr-6060-exec-23] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:21:11.468 INFO [http-apr-6060-exec-24] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:21:11.471 INFO [http-apr-6060-exec-24] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 10:21:12.689 INFO [http-apr-6060-exec-24] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 10:21:12.713 INFO [http-apr-6060-exec-24] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 10:21:12.965 INFO [http-apr-6060-exec-24] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:22:16.394 INFO [http-apr-6060-exec-14] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:22:16.396 INFO [http-apr-6060-exec-14] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 10:22:17.543 INFO [http-apr-6060-exec-14] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 10:22:17.568 INFO [http-apr-6060-exec-14] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 10:22:17.836 INFO [http-apr-6060-exec-14] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:22:57.352 INFO [http-apr-6060-exec-28] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:22:57.355 INFO [http-apr-6060-exec-28] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 10:22:58.470 INFO [http-apr-6060-exec-28] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 10:22:58.494 INFO [http-apr-6060-exec-28] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 10:22:58.727 INFO [http-apr-6060-exec-28] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:23:18.361 INFO [http-apr-6060-exec-20] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:23:18.364 INFO [http-apr-6060-exec-20] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 10:23:19.490 INFO [http-apr-6060-exec-20] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 10:23:19.519 INFO [http-apr-6060-exec-20] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 10:23:19.777 INFO [http-apr-6060-exec-20] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:23:44.409 INFO [http-apr-6060-exec-30] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:23:44.412 INFO [http-apr-6060-exec-30] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 10:23:45.612 INFO [http-apr-6060-exec-30] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 10:23:45.649 INFO [http-apr-6060-exec-30] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 10:23:45.961 INFO [http-apr-6060-exec-30] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:25:04.085 INFO [http-apr-6060-exec-39] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:25:04.088 INFO [http-apr-6060-exec-39] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 10:25:05.818 INFO [http-apr-6060-exec-36] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 10:25:05.842 INFO [http-apr-6060-exec-36] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 10:25:06.076 INFO [http-apr-6060-exec-36] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:31:29.178 INFO [http-apr-6060-exec-43] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:31:29.182 WARNING [http-apr-6060-exec-43] org.apache.catalina.session.StandardSession.doWriteObject Cannot serialize session attribute rights for session D64EC0E61E16E14F8570CF8C5DD2E854
+ java.io.NotSerializableException: supernova.pfe.model.UserPermission
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.ArrayList.writeObject(ArrayList.java:768)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1155)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1715)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1107)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5582)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3900)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1007)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:351)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:342)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 10:31:29.183 INFO [http-apr-6060-exec-43] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 10:31:30.379 INFO [http-apr-6060-exec-43] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 10:31:30.403 INFO [http-apr-6060-exec-43] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 10:31:30.631 WARNING [http-apr-6060-exec-43] org.apache.catalina.session.StandardSession.doReadObject Cannot deserialize session attribute rights for session D64EC0E61E16E14F8570CF8C5DD2E854
+05-Feb-2021 10:31:30.649 INFO [http-apr-6060-exec-43] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:43:10.182 INFO [http-apr-6060-exec-56] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:43:10.186 INFO [http-apr-6060-exec-56] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 10:43:11.850 INFO [http-apr-6060-exec-54] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 10:43:11.874 INFO [http-apr-6060-exec-54] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 10:43:12.104 INFO [http-apr-6060-exec-54] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:43:36.245 INFO [http-apr-6060-exec-65] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:43:36.248 WARNING [http-apr-6060-exec-65] org.apache.catalina.session.StandardSession.doWriteObject Cannot serialize session attribute rights for session 29A3EA9C3FB00C4E2DB3A83D8C1C90B2
+ java.io.NotSerializableException: supernova.pfe.model.UserPermission
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.ArrayList.writeObject(ArrayList.java:768)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1155)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1715)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1107)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5582)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.manager.ManagerServlet.undeploy(ManagerServlet.java:1399)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:367)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:342)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 10:43:36.249 INFO [http-apr-6060-exec-65] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 10:43:37.922 INFO [http-apr-6060-exec-64] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 10:43:37.946 INFO [http-apr-6060-exec-64] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 10:43:38.178 INFO [http-apr-6060-exec-64] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 10:53:16.364 SEVERE [http-apr-6060-exec-77] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sygealoc] threw exception [An exception occurred processing JSP page /assets/services/location/getNbDaysFromDates.jsp at line 22
+
+19:     if (request.getParameter("EDITID") == null) {
+20:         json.put("comment", "");
+21:     } else {
+22:         Location l = new D_Location().get(Integer.parseInt(request.getParameter("EDITID")));        
+23:         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");        
+24:         Date datefin = sdf.parse(l.DATEDEBUT());        
+25:         datefin.setDate(datefin.getDate() + Integer.parseInt(l.NBJOUR()));  
+
+
+Stacktrace:] with root cause
+ java.lang.NumberFormatException: For input string: "Location annul&eacute;e 1 jour(s) avant le jour pr&eacute;vu"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at org.apache.jsp.assets.services.location.getNbDaysFromDates_jsp._jspService(getNbDaysFromDates_jsp.java:144)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 10:53:17.213 SEVERE [http-apr-6060-exec-76] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sygealoc] threw exception [An exception occurred processing JSP page /assets/services/location/getNbDaysFromDates.jsp at line 22
+
+19:     if (request.getParameter("EDITID") == null) {
+20:         json.put("comment", "");
+21:     } else {
+22:         Location l = new D_Location().get(Integer.parseInt(request.getParameter("EDITID")));        
+23:         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");        
+24:         Date datefin = sdf.parse(l.DATEDEBUT());        
+25:         datefin.setDate(datefin.getDate() + Integer.parseInt(l.NBJOUR()));  
+
+
+Stacktrace:] with root cause
+ java.lang.NumberFormatException: For input string: "Location annul&eacute;e 1 jour(s) avant le jour pr&eacute;vu"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at org.apache.jsp.assets.services.location.getNbDaysFromDates_jsp._jspService(getNbDaysFromDates_jsp.java:144)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 10:53:19.053 SEVERE [http-apr-6060-exec-75] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sygealoc] threw exception [An exception occurred processing JSP page /assets/services/location/getNbDaysFromDates.jsp at line 22
+
+19:     if (request.getParameter("EDITID") == null) {
+20:         json.put("comment", "");
+21:     } else {
+22:         Location l = new D_Location().get(Integer.parseInt(request.getParameter("EDITID")));        
+23:         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");        
+24:         Date datefin = sdf.parse(l.DATEDEBUT());        
+25:         datefin.setDate(datefin.getDate() + Integer.parseInt(l.NBJOUR()));  
+
+
+Stacktrace:] with root cause
+ java.lang.NumberFormatException: For input string: "Location annul&eacute;e 1 jour(s) avant le jour pr&eacute;vu"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at org.apache.jsp.assets.services.location.getNbDaysFromDates_jsp._jspService(getNbDaysFromDates_jsp.java:144)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 10:53:20.060 SEVERE [http-apr-6060-exec-73] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sygealoc] threw exception [An exception occurred processing JSP page /assets/services/location/getNbDaysFromDates.jsp at line 22
+
+19:     if (request.getParameter("EDITID") == null) {
+20:         json.put("comment", "");
+21:     } else {
+22:         Location l = new D_Location().get(Integer.parseInt(request.getParameter("EDITID")));        
+23:         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");        
+24:         Date datefin = sdf.parse(l.DATEDEBUT());        
+25:         datefin.setDate(datefin.getDate() + Integer.parseInt(l.NBJOUR()));  
+
+
+Stacktrace:] with root cause
+ java.lang.NumberFormatException: For input string: "Location annul&eacute;e 1 jour(s) avant le jour pr&eacute;vu"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at org.apache.jsp.assets.services.location.getNbDaysFromDates_jsp._jspService(getNbDaysFromDates_jsp.java:144)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 10:53:20.549 SEVERE [http-apr-6060-exec-74] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sygealoc] threw exception [An exception occurred processing JSP page /assets/services/location/getNbDaysFromDates.jsp at line 22
+
+19:     if (request.getParameter("EDITID") == null) {
+20:         json.put("comment", "");
+21:     } else {
+22:         Location l = new D_Location().get(Integer.parseInt(request.getParameter("EDITID")));        
+23:         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");        
+24:         Date datefin = sdf.parse(l.DATEDEBUT());        
+25:         datefin.setDate(datefin.getDate() + Integer.parseInt(l.NBJOUR()));  
+
+
+Stacktrace:] with root cause
+ java.lang.NumberFormatException: For input string: "Location annul&eacute;e 1 jour(s) avant le jour pr&eacute;vu"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at org.apache.jsp.assets.services.location.getNbDaysFromDates_jsp._jspService(getNbDaysFromDates_jsp.java:144)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 10:53:20.715 SEVERE [http-apr-6060-exec-77] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sygealoc] threw exception [An exception occurred processing JSP page /assets/services/location/getNbDaysFromDates.jsp at line 22
+
+19:     if (request.getParameter("EDITID") == null) {
+20:         json.put("comment", "");
+21:     } else {
+22:         Location l = new D_Location().get(Integer.parseInt(request.getParameter("EDITID")));        
+23:         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");        
+24:         Date datefin = sdf.parse(l.DATEDEBUT());        
+25:         datefin.setDate(datefin.getDate() + Integer.parseInt(l.NBJOUR()));  
+
+
+Stacktrace:] with root cause
+ java.lang.NumberFormatException: For input string: "Location annul&eacute;e 1 jour(s) avant le jour pr&eacute;vu"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at org.apache.jsp.assets.services.location.getNbDaysFromDates_jsp._jspService(getNbDaysFromDates_jsp.java:144)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 10:53:41.129 SEVERE [http-apr-6060-exec-76] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sygealoc] threw exception [An exception occurred processing JSP page /assets/services/location/getNbDaysFromDates.jsp at line 22
+
+19:     if (request.getParameter("EDITID") == null) {
+20:         json.put("comment", "");
+21:     } else {
+22:         Location l = new D_Location().get(Integer.parseInt(request.getParameter("EDITID")));        
+23:         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");        
+24:         Date datefin = sdf.parse(l.DATEDEBUT());        
+25:         datefin.setDate(datefin.getDate() + Integer.parseInt(l.NBJOUR()));  
+
+
+Stacktrace:] with root cause
+ java.lang.NumberFormatException: For input string: "Location annul&eacute;e 1 jour(s) avant le jour pr&eacute;vu"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at org.apache.jsp.assets.services.location.getNbDaysFromDates_jsp._jspService(getNbDaysFromDates_jsp.java:144)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 10:53:42.292 SEVERE [http-apr-6060-exec-75] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sygealoc] threw exception [An exception occurred processing JSP page /assets/services/location/getNbDaysFromDates.jsp at line 22
+
+19:     if (request.getParameter("EDITID") == null) {
+20:         json.put("comment", "");
+21:     } else {
+22:         Location l = new D_Location().get(Integer.parseInt(request.getParameter("EDITID")));        
+23:         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");        
+24:         Date datefin = sdf.parse(l.DATEDEBUT());        
+25:         datefin.setDate(datefin.getDate() + Integer.parseInt(l.NBJOUR()));  
+
+
+Stacktrace:] with root cause
+ java.lang.NumberFormatException: For input string: "Location annul&eacute;e 1 jour(s) avant le jour pr&eacute;vu"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at org.apache.jsp.assets.services.location.getNbDaysFromDates_jsp._jspService(getNbDaysFromDates_jsp.java:144)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 10:53:42.490 SEVERE [http-apr-6060-exec-73] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sygealoc] threw exception [An exception occurred processing JSP page /assets/services/location/getNbDaysFromDates.jsp at line 22
+
+19:     if (request.getParameter("EDITID") == null) {
+20:         json.put("comment", "");
+21:     } else {
+22:         Location l = new D_Location().get(Integer.parseInt(request.getParameter("EDITID")));        
+23:         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");        
+24:         Date datefin = sdf.parse(l.DATEDEBUT());        
+25:         datefin.setDate(datefin.getDate() + Integer.parseInt(l.NBJOUR()));  
+
+
+Stacktrace:] with root cause
+ java.lang.NumberFormatException: For input string: "Location annul&eacute;e 1 jour(s) avant le jour pr&eacute;vu"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at org.apache.jsp.assets.services.location.getNbDaysFromDates_jsp._jspService(getNbDaysFromDates_jsp.java:144)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 10:53:48.468 SEVERE [http-apr-6060-exec-74] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sygealoc] threw exception [An exception occurred processing JSP page /assets/services/location/getNbDaysFromDates.jsp at line 22
+
+19:     if (request.getParameter("EDITID") == null) {
+20:         json.put("comment", "");
+21:     } else {
+22:         Location l = new D_Location().get(Integer.parseInt(request.getParameter("EDITID")));        
+23:         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");        
+24:         Date datefin = sdf.parse(l.DATEDEBUT());        
+25:         datefin.setDate(datefin.getDate() + Integer.parseInt(l.NBJOUR()));  
+
+
+Stacktrace:] with root cause
+ java.lang.NumberFormatException: For input string: "Location annul&eacute;e 1 jour(s) avant le jour pr&eacute;vu"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at org.apache.jsp.assets.services.location.getNbDaysFromDates_jsp._jspService(getNbDaysFromDates_jsp.java:144)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 10:56:05.532 SEVERE [http-apr-6060-exec-72] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sygealoc] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 26 in the jsp file: /assets/services/location/getNbDaysFromDates.jsp
+The method abs(int) in the type Math is not applicable for the arguments (int, Date)
+23:         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");        
+24:         Date datefin = sdf.parse(l.DATEDEBUT());        
+25:         datefin.setDate(datefin.getDate() + Integer.parseInt(l.NBJOUR()));  
+26:         int nbday = Math.abs(new DateDifference(new Date()).get(), datefin);
+27:         comment = "Location annul&eacute;e "+nbday+ " jour(s) avant la date pr&eacute;vu.";        
+28:         json.put("comment", comment);
+29:     }    
+
+
+An error occurred at line: 26 in the jsp file: /assets/services/location/getNbDaysFromDates.jsp
+The constructor DateDifference(Date) is undefined
+23:         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");        
+24:         Date datefin = sdf.parse(l.DATEDEBUT());        
+25:         datefin.setDate(datefin.getDate() + Integer.parseInt(l.NBJOUR()));  
+26:         int nbday = Math.abs(new DateDifference(new Date()).get(), datefin);
+27:         comment = "Location annul&eacute;e "+nbday+ " jour(s) avant la date pr&eacute;vu.";        
+28:         json.put("comment", comment);
+29:     }    
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 26 in the jsp file: /assets/services/location/getNbDaysFromDates.jsp
+The method abs(int) in the type Math is not applicable for the arguments (int, Date)
+23:         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");        
+24:         Date datefin = sdf.parse(l.DATEDEBUT());        
+25:         datefin.setDate(datefin.getDate() + Integer.parseInt(l.NBJOUR()));  
+26:         int nbday = Math.abs(new DateDifference(new Date()).get(), datefin);
+27:         comment = "Location annul&eacute;e "+nbday+ " jour(s) avant la date pr&eacute;vu.";        
+28:         json.put("comment", comment);
+29:     }    
+
+
+An error occurred at line: 26 in the jsp file: /assets/services/location/getNbDaysFromDates.jsp
+The constructor DateDifference(Date) is undefined
+23:         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");        
+24:         Date datefin = sdf.parse(l.DATEDEBUT());        
+25:         datefin.setDate(datefin.getDate() + Integer.parseInt(l.NBJOUR()));  
+26:         int nbday = Math.abs(new DateDifference(new Date()).get(), datefin);
+27:         comment = "Location annul&eacute;e "+nbday+ " jour(s) avant la date pr&eacute;vu.";        
+28:         json.put("comment", comment);
+29:     }    
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:495)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:363)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:338)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:325)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:580)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 10:57:24.848 SEVERE [http-apr-6060-exec-71] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sygealoc] threw exception [An exception occurred processing JSP page /assets/services/location/getNbDaysFromDates.jsp at line 22
+
+19:     if (request.getParameter("EDITID") == null) {
+20:         json.put("comment", "");
+21:     } else {
+22:         Location l = new D_Location().get(Integer.parseInt(request.getParameter("EDITID")));        
+23:         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");        
+24:         Date datefin = sdf.parse(l.DATEDEBUT());        
+25:         datefin.setDate(datefin.getDate() + Integer.parseInt(l.NBJOUR()));  
+
+
+Stacktrace:] with root cause
+ java.lang.NumberFormatException: For input string: "Location annul&eacute;e 1.0 jour(s) avant la date pr&eacute;vu."
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at org.apache.jsp.assets.services.location.getNbDaysFromDates_jsp._jspService(getNbDaysFromDates_jsp.java:144)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 10:57:26.798 SEVERE [http-apr-6060-exec-74] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sygealoc] threw exception [An exception occurred processing JSP page /assets/services/location/getNbDaysFromDates.jsp at line 22
+
+19:     if (request.getParameter("EDITID") == null) {
+20:         json.put("comment", "");
+21:     } else {
+22:         Location l = new D_Location().get(Integer.parseInt(request.getParameter("EDITID")));        
+23:         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");        
+24:         Date datefin = sdf.parse(l.DATEDEBUT());        
+25:         datefin.setDate(datefin.getDate() + Integer.parseInt(l.NBJOUR()));  
+
+
+Stacktrace:] with root cause
+ java.lang.NumberFormatException: For input string: "Location annul&eacute;e 1.0 jour(s) avant la date pr&eacute;vu."
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at org.apache.jsp.assets.services.location.getNbDaysFromDates_jsp._jspService(getNbDaysFromDates_jsp.java:144)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 10:57:27.669 SEVERE [http-apr-6060-exec-77] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sygealoc] threw exception [An exception occurred processing JSP page /assets/services/location/getNbDaysFromDates.jsp at line 22
+
+19:     if (request.getParameter("EDITID") == null) {
+20:         json.put("comment", "");
+21:     } else {
+22:         Location l = new D_Location().get(Integer.parseInt(request.getParameter("EDITID")));        
+23:         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");        
+24:         Date datefin = sdf.parse(l.DATEDEBUT());        
+25:         datefin.setDate(datefin.getDate() + Integer.parseInt(l.NBJOUR()));  
+
+
+Stacktrace:] with root cause
+ java.lang.NumberFormatException: For input string: "Location annul&eacute;e 1.0 jour(s) avant la date pr&eacute;vu."
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at org.apache.jsp.assets.services.location.getNbDaysFromDates_jsp._jspService(getNbDaysFromDates_jsp.java:144)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 11:38:09.111 SEVERE [http-apr-6060-exec-72] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sygealoc] threw exception [An exception occurred processing JSP page /assets/services/location/getNbDaysFromDates.jsp at line 22
+
+19:     if (request.getParameter("EDITID") == null) {
+20:         json.put("comment", "");
+21:     } else {
+22:         Location l = new D_Location().get(Integer.parseInt(request.getParameter("EDITID")));        
+23:         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");        
+24:         Date datefin = sdf.parse(l.DATEDEBUT());        
+25:         datefin.setDate(datefin.getDate() + Integer.parseInt(l.NBJOUR()));  
+
+
+Stacktrace:] with root cause
+ java.lang.NumberFormatException: For input string: "Location annul&eacute;e 1.0 jour(s) avant la date pr&eacute;vu."
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at org.apache.jsp.assets.services.location.getNbDaysFromDates_jsp._jspService(getNbDaysFromDates_jsp.java:144)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 12:17:44.978 INFO [http-apr-6060-exec-76] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:17:44.981 WARNING [http-apr-6060-exec-76] org.apache.catalina.session.StandardSession.doWriteObject Cannot serialize session attribute rights for session F636C6BD73FF2316F4F7C79D6B1F5491
+ java.io.NotSerializableException: supernova.pfe.model.UserPermission
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.ArrayList.writeObject(ArrayList.java:768)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1155)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1715)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1107)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5582)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3900)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1007)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:351)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:342)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 12:17:44.982 INFO [http-apr-6060-exec-76] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 12:17:48.110 INFO [http-apr-6060-exec-76] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 12:17:48.149 INFO [http-apr-6060-exec-76] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 12:17:48.435 WARNING [http-apr-6060-exec-76] org.apache.catalina.session.StandardSession.doReadObject Cannot deserialize session attribute rights for session F636C6BD73FF2316F4F7C79D6B1F5491
+05-Feb-2021 12:17:48.457 INFO [http-apr-6060-exec-76] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:18:06.309 INFO [http-apr-6060-exec-70] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:18:06.315 INFO [http-apr-6060-exec-70] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 12:18:08.228 INFO [http-apr-6060-exec-72] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 12:18:08.256 INFO [http-apr-6060-exec-72] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 12:18:08.540 INFO [http-apr-6060-exec-72] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:20:40.301 INFO [http-apr-6060-exec-90] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:20:40.304 WARNING [http-apr-6060-exec-90] org.apache.catalina.session.StandardSession.doWriteObject Cannot serialize session attribute rights for session 38996C9DB8ABAAD867D0A9D9C9BEA8EA
+ java.io.NotSerializableException: supernova.pfe.model.UserPermission
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.ArrayList.writeObject(ArrayList.java:768)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1155)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1715)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1107)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5582)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3900)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1007)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:351)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:342)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 12:20:40.305 INFO [http-apr-6060-exec-90] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 12:20:41.492 INFO [http-apr-6060-exec-90] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 12:20:41.519 INFO [http-apr-6060-exec-90] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 12:20:41.743 WARNING [http-apr-6060-exec-90] org.apache.catalina.session.StandardSession.doReadObject Cannot deserialize session attribute rights for session 38996C9DB8ABAAD867D0A9D9C9BEA8EA
+05-Feb-2021 12:20:41.762 INFO [http-apr-6060-exec-90] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:21:01.812 INFO [http-apr-6060-exec-81] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:21:01.815 INFO [http-apr-6060-exec-81] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 12:21:02.933 INFO [http-apr-6060-exec-81] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 12:21:02.959 INFO [http-apr-6060-exec-81] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 12:21:03.200 INFO [http-apr-6060-exec-81] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:21:39.142 INFO [http-apr-6060-exec-95] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:21:39.145 INFO [http-apr-6060-exec-95] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 12:21:40.910 INFO [http-apr-6060-exec-92] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 12:21:40.935 INFO [http-apr-6060-exec-92] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 12:21:41.194 INFO [http-apr-6060-exec-92] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:23:35.386 INFO [http-apr-6060-exec-97] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:23:35.391 WARNING [http-apr-6060-exec-97] org.apache.catalina.session.StandardSession.doWriteObject Cannot serialize session attribute rights for session D750DC82D895E1008BA45E6BBEF13C03
+ java.io.NotSerializableException: supernova.pfe.model.UserPermission
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.ArrayList.writeObject(ArrayList.java:768)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1155)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1715)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1107)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5582)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3900)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1007)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:351)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:342)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 12:23:35.392 INFO [http-apr-6060-exec-97] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 12:23:36.542 INFO [http-apr-6060-exec-97] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 12:23:36.566 INFO [http-apr-6060-exec-97] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 12:23:36.811 WARNING [http-apr-6060-exec-97] org.apache.catalina.session.StandardSession.doReadObject Cannot deserialize session attribute rights for session D750DC82D895E1008BA45E6BBEF13C03
+05-Feb-2021 12:23:36.829 INFO [http-apr-6060-exec-97] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:24:41.652 INFO [http-apr-6060-exec-100] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:24:41.664 INFO [http-apr-6060-exec-100] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 12:24:42.951 INFO [http-apr-6060-exec-100] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 12:24:42.975 INFO [http-apr-6060-exec-100] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 12:24:43.209 INFO [http-apr-6060-exec-100] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:25:27.937 INFO [http-apr-6060-exec-112] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:25:27.939 INFO [http-apr-6060-exec-112] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 12:25:29.733 INFO [http-apr-6060-exec-101] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 12:25:29.761 INFO [http-apr-6060-exec-101] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 12:25:30.018 INFO [http-apr-6060-exec-101] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:27:46.729 INFO [http-apr-6060-exec-115] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:27:46.732 WARNING [http-apr-6060-exec-115] org.apache.catalina.session.StandardSession.doWriteObject Cannot serialize session attribute rights for session 956FE696AC708C0F22835A893A63B04B
+ java.io.NotSerializableException: supernova.pfe.model.UserPermission
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.ArrayList.writeObject(ArrayList.java:768)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1155)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1715)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1107)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5582)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.manager.ManagerServlet.undeploy(ManagerServlet.java:1399)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:367)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:342)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 12:27:46.732 INFO [http-apr-6060-exec-115] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 12:27:48.414 INFO [http-apr-6060-exec-116] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 12:27:48.440 INFO [http-apr-6060-exec-116] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 12:27:48.667 INFO [http-apr-6060-exec-116] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:42:40.680 INFO [http-apr-6060-exec-131] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:42:40.683 WARNING [http-apr-6060-exec-131] org.apache.catalina.session.StandardSession.doWriteObject Cannot serialize session attribute rights for session 2AF238A7A0B967A1188B6BF1CFB4BCF1
+ java.io.NotSerializableException: supernova.pfe.model.UserPermission
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.ArrayList.writeObject(ArrayList.java:768)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1155)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1715)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1107)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5582)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.manager.ManagerServlet.undeploy(ManagerServlet.java:1399)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:367)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:342)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 12:42:40.684 INFO [http-apr-6060-exec-131] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 12:42:42.417 INFO [http-apr-6060-exec-129] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 12:42:42.444 INFO [http-apr-6060-exec-129] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 12:42:42.680 INFO [http-apr-6060-exec-129] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:46:01.053 INFO [http-apr-6060-exec-136] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:46:01.056 WARNING [http-apr-6060-exec-136] org.apache.catalina.session.StandardSession.doWriteObject Cannot serialize session attribute rights for session DD221476B767D39E5CB8D6A02224F443
+ java.io.NotSerializableException: supernova.pfe.model.UserPermission
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.ArrayList.writeObject(ArrayList.java:768)
+	at sun.reflect.GeneratedMethodAccessor93.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1155)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1715)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1107)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5582)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.manager.ManagerServlet.undeploy(ManagerServlet.java:1399)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:367)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:342)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 12:46:01.057 INFO [http-apr-6060-exec-136] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 12:47:23.412 INFO [http-apr-6060-exec-145] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 12:47:23.436 INFO [http-apr-6060-exec-145] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 12:47:23.671 INFO [http-apr-6060-exec-145] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:48:13.566 SEVERE [http-apr-6060-exec-145] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sygealoc] threw exception [An exception occurred processing JSP page /assets/services/location/addEditLocation.jsp at line 39
+
+36:         String NBJOUR = request.getParameter("NBJOUR");
+37:         String VEHICULERETOURNE = request.getParameter("VEHICULERETOURNE");
+38:         String ETAT = request.getParameter("ETAT");
+39:         String COMMENTAIRE = request.getSession().getAttribute("COMMENTAIRE").toString();
+40: 
+41:         HashMap<String, String> rules = new HashMap<>();
+42:         rules.put("CLIENT", "required");
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.assets.services.location.addEditLocation_jsp._jspService(addEditLocation_jsp.java:177)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 12:48:19.911 SEVERE [http-apr-6060-exec-147] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sygealoc] threw exception [An exception occurred processing JSP page /assets/services/location/addEditLocation.jsp at line 39
+
+36:         String NBJOUR = request.getParameter("NBJOUR");
+37:         String VEHICULERETOURNE = request.getParameter("VEHICULERETOURNE");
+38:         String ETAT = request.getParameter("ETAT");
+39:         String COMMENTAIRE = request.getSession().getAttribute("COMMENTAIRE").toString();
+40: 
+41:         HashMap<String, String> rules = new HashMap<>();
+42:         rules.put("CLIENT", "required");
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.assets.services.location.addEditLocation_jsp._jspService(addEditLocation_jsp.java:177)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 12:52:33.900 INFO [http-apr-6060-exec-152] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:52:33.903 WARNING [http-apr-6060-exec-152] org.apache.catalina.session.StandardSession.doWriteObject Cannot serialize session attribute rights for session F1F1A8D21F2F21633C191B97209C2130
+ java.io.NotSerializableException: supernova.pfe.model.UserPermission
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.ArrayList.writeObject(ArrayList.java:768)
+	at sun.reflect.GeneratedMethodAccessor93.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1155)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1715)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1107)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5582)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3900)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1007)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:351)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:342)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 12:52:33.904 INFO [http-apr-6060-exec-152] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 12:52:35.038 INFO [http-apr-6060-exec-152] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 12:52:35.063 INFO [http-apr-6060-exec-152] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 12:52:35.306 WARNING [http-apr-6060-exec-152] org.apache.catalina.session.StandardSession.doReadObject Cannot deserialize session attribute rights for session F1F1A8D21F2F21633C191B97209C2130
+05-Feb-2021 12:52:35.331 INFO [http-apr-6060-exec-152] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:52:36.570 INFO [http-apr-6060-exec-150] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:52:36.580 INFO [http-apr-6060-exec-150] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 12:52:37.731 INFO [http-apr-6060-exec-150] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 12:52:37.756 INFO [http-apr-6060-exec-150] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 12:52:37.997 INFO [http-apr-6060-exec-150] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:52:40.791 INFO [http-apr-6060-exec-154] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:52:40.795 INFO [http-apr-6060-exec-154] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 12:52:41.916 INFO [http-apr-6060-exec-154] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 12:52:41.940 INFO [http-apr-6060-exec-154] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 12:52:42.171 INFO [http-apr-6060-exec-154] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:52:53.839 INFO [http-apr-6060-exec-143] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:52:53.844 INFO [http-apr-6060-exec-143] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 12:52:55.092 INFO [http-apr-6060-exec-143] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 12:52:55.116 INFO [http-apr-6060-exec-143] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 12:52:55.405 INFO [http-apr-6060-exec-143] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:53:01.283 INFO [http-apr-6060-exec-148] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:53:01.288 INFO [http-apr-6060-exec-148] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 12:53:02.582 INFO [http-apr-6060-exec-148] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 12:53:02.606 INFO [http-apr-6060-exec-148] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 12:53:02.885 INFO [http-apr-6060-exec-148] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:53:08.972 INFO [http-apr-6060-exec-145] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:53:08.974 INFO [http-apr-6060-exec-145] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 12:53:10.086 INFO [http-apr-6060-exec-145] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 12:53:10.110 INFO [http-apr-6060-exec-145] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 12:53:10.351 INFO [http-apr-6060-exec-145] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:53:12.131 INFO [http-apr-6060-exec-159] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:53:12.134 INFO [http-apr-6060-exec-159] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 12:53:13.338 INFO [http-apr-6060-exec-159] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 12:53:13.362 INFO [http-apr-6060-exec-159] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 12:53:13.607 INFO [http-apr-6060-exec-159] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:53:24.528 INFO [http-apr-6060-exec-160] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:53:24.530 INFO [http-apr-6060-exec-160] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 12:53:25.675 INFO [http-apr-6060-exec-160] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 12:53:25.700 INFO [http-apr-6060-exec-160] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 12:53:25.945 INFO [http-apr-6060-exec-160] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:53:38.104 INFO [http-apr-6060-exec-153] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:53:38.106 INFO [http-apr-6060-exec-153] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 12:53:39.264 INFO [http-apr-6060-exec-153] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 12:53:39.290 INFO [http-apr-6060-exec-153] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 12:53:39.532 INFO [http-apr-6060-exec-153] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:53:54.786 INFO [http-apr-6060-exec-149] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:53:54.788 INFO [http-apr-6060-exec-149] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+05-Feb-2021 12:53:56.468 INFO [http-apr-6060-exec-151] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+05-Feb-2021 12:53:56.493 INFO [http-apr-6060-exec-151] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+05-Feb-2021 12:53:56.733 INFO [http-apr-6060-exec-151] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 12:55:01.356 SEVERE [http-apr-6060-exec-173] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sygealoc] threw exception [An exception occurred processing JSP page /assets/services/location/addEditLocation.jsp at line 39
+
+36:         String NBJOUR = request.getParameter("NBJOUR");
+37:         String VEHICULERETOURNE = request.getParameter("VEHICULERETOURNE");
+38:         String ETAT = request.getParameter("ETAT");
+39:         String COMMENTAIRE = request.getSession().getAttribute("COMMENTAIRE").toString();
+40: 
+41:         HashMap<String, String> rules = new HashMap<>();
+42:         rules.put("CLIENT", "required");
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.assets.services.location.addEditLocation_jsp._jspService(addEditLocation_jsp.java:177)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 13:35:38.118 INFO [http-apr-6060-exec-171] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+05-Feb-2021 13:35:38.120 WARNING [http-apr-6060-exec-171] org.apache.catalina.session.StandardSession.doWriteObject Cannot serialize session attribute rights for session 16ABD7F26BD6F15E239C44BB7F408EFC
+ java.io.NotSerializableException: supernova.pfe.model.UserPermission
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.ArrayList.writeObject(ArrayList.java:768)
+	at sun.reflect.GeneratedMethodAccessor93.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1155)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1715)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1107)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5582)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.manager.ManagerServlet.undeploy(ManagerServlet.java:1399)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:367)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:342)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+05-Feb-2021 13:35:38.121 INFO [http-apr-6060-exec-171] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext

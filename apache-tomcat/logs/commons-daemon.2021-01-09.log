@@ -1,0 +1,9 @@
+[2021-01-09 16:58:31] [info]  [ 2168] Commons Daemon procrun (1.1.0.0 64-bit) started
+[2021-01-09 16:58:32] [info]  [ 2168] Running 'Tomcat8' Service...
+[2021-01-09 16:58:32] [info]  [ 2416] Starting service...
+[2021-01-09 16:58:37] [info]  [ 2416] Service started in 4955 ms.
+[2021-01-10 12:44:25] [info]  [ 4828] Console SHUTDOWN event signaled
+[2021-01-10 12:44:25] [info]  [ 4828] Stopping service...
+[2021-01-10 12:44:26] [info]  [ 4828] Service stop thread completed.
+[2021-01-10 12:44:26] [info]  [ 2168] Run service finished.
+[2021-01-10 12:44:26] [info]  [ 2168] Commons Daemon procrun finished

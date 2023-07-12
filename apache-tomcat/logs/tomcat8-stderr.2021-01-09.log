@@ -1,0 +1,86 @@
+
+2021-01-09 16:58:32 Commons Daemon procrun stderr initialized
+09-Jan-2021 16:58:40.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.53
+09-Jan-2021 16:58:41.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 29 2018 14:42:45 UTC
+09-Jan-2021 16:58:41.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.53.0
+09-Jan-2021 16:58:41.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+09-Jan-2021 16:58:41.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Jan-2021 16:58:41.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Jan-2021 16:58:41.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_111
+09-Jan-2021 16:58:41.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+09-Jan-2021 16:58:41.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Jan-2021 16:58:41.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+09-Jan-2021 16:58:41.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+09-Jan-2021 16:58:41.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+09-Jan-2021 16:58:41.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+09-Jan-2021 16:58:41.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\endorsed
+09-Jan-2021 16:58:41.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\temp
+09-Jan-2021 16:58:41.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jan-2021 16:58:41.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\conf\logging.properties
+09-Jan-2021 16:58:41.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+09-Jan-2021 16:58:41.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+09-Jan-2021 16:58:41.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+09-Jan-2021 16:58:41.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+09-Jan-2021 16:58:41.236 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.17 using APR version 1.6.3.
+09-Jan-2021 16:58:41.236 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09-Jan-2021 16:58:42.533 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2o  27 Mar 2018)
+09-Jan-2021 16:58:49.873 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-6060"]
+09-Jan-2021 16:58:49.909 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-7009"]
+09-Jan-2021 16:58:49.916 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 12425 ms
+09-Jan-2021 16:58:50.115 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+09-Jan-2021 16:58:50.115 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.53
+09-Jan-2021 16:58:50.177 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\conf\Catalina\localhost\sygealoc.xml
+09-Jan-2021 16:58:50.489 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sygealoc]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:162)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:755)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:731)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:620)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1832)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@209814a1]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:162)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5016)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5149)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\NHELTECH\Desktop\pfe.supernova\sygealoc\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:746)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:704)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	... 13 more
+
+09-Jan-2021 16:58:50.498 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\conf\Catalina\localhost\sygealoc.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sygealoc]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:759)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:731)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:620)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1832)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+09-Jan-2021 16:58:50.512 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\conf\Catalina\localhost\sygealoc.xml has finished in 325 ms
+09-Jan-2021 16:58:50.517 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\host-manager
+09-Jan-2021 16:58:52.465 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [360] milliseconds.
+09-Jan-2021 16:58:52.633 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\host-manager has finished in 2,116 ms
+09-Jan-2021 16:58:52.633 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\manager
+09-Jan-2021 16:58:52.793 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\manager has finished in 160 ms
+09-Jan-2021 16:58:52.797 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\ROOT
+09-Jan-2021 16:58:52.901 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\ROOT has finished in 104 ms
+09-Jan-2021 16:58:52.911 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-6060"]
+09-Jan-2021 16:58:52.955 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-7009"]
+09-Jan-2021 16:58:52.969 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3053 ms
+10-Jan-2021 12:44:25.286 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-6060"]
+10-Jan-2021 12:44:25.392 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-7009"]
+10-Jan-2021 12:44:25.444 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+10-Jan-2021 12:44:25.725 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-6060"]
+10-Jan-2021 12:44:25.790 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-7009"]

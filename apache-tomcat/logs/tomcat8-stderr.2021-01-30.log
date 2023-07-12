@@ -1,0 +1,243 @@
+
+2021-01-30 09:51:59 Commons Daemon procrun stderr initialized
+30-Jan-2021 09:52:02.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.53
+30-Jan-2021 09:52:02.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 29 2018 14:42:45 UTC
+30-Jan-2021 09:52:02.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.53.0
+30-Jan-2021 09:52:02.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Jan-2021 09:52:02.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Jan-2021 09:52:02.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Jan-2021 09:52:02.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_111
+30-Jan-2021 09:52:02.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+30-Jan-2021 09:52:02.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Jan-2021 09:52:02.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+30-Jan-2021 09:52:02.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+30-Jan-2021 09:52:02.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+30-Jan-2021 09:52:02.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+30-Jan-2021 09:52:02.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\endorsed
+30-Jan-2021 09:52:02.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\temp
+30-Jan-2021 09:52:02.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jan-2021 09:52:02.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\conf\logging.properties
+30-Jan-2021 09:52:02.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+30-Jan-2021 09:52:02.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+30-Jan-2021 09:52:02.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+30-Jan-2021 09:52:02.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+30-Jan-2021 09:52:02.112 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.17 using APR version 1.6.3.
+30-Jan-2021 09:52:02.112 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+30-Jan-2021 09:52:03.268 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2o  27 Mar 2018)
+30-Jan-2021 09:52:03.815 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-6060"]
+30-Jan-2021 09:52:03.846 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-7009"]
+30-Jan-2021 09:52:03.862 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3150 ms
+30-Jan-2021 09:52:03.987 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-Jan-2021 09:52:03.987 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.53
+30-Jan-2021 09:52:04.128 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\sygealoc##1.0.war
+30-Jan-2021 09:52:11.766 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2021 09:52:12.022 INFO [localhost-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+30-Jan-2021 09:52:12.619 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Sat Jan 30 09:52:12 CST 2021]; root of context hierarchy
+30-Jan-2021 09:52:12.853 INFO [localhost-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+30-Jan-2021 09:52:13.304 INFO [localhost-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1282 ms
+30-Jan-2021 09:52:13.453 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [143] milliseconds.
+30-Jan-2021 09:52:13.562 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+30-Jan-2021 09:52:13.577 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Sat Jan 30 09:52:13 CST 2021]; parent: Root WebApplicationContext
+30-Jan-2021 09:52:13.586 INFO [localhost-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+30-Jan-2021 09:52:14.167 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+30-Jan-2021 09:52:14.169 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+30-Jan-2021 09:52:14.172 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+30-Jan-2021 09:52:14.173 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+30-Jan-2021 09:52:14.175 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+30-Jan-2021 09:52:14.177 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+30-Jan-2021 09:52:14.179 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+30-Jan-2021 09:52:14.181 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+30-Jan-2021 09:52:14.184 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+30-Jan-2021 09:52:14.187 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+30-Jan-2021 09:52:14.189 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+30-Jan-2021 09:52:14.231 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+30-Jan-2021 09:52:14.236 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+30-Jan-2021 09:52:14.238 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+30-Jan-2021 09:52:14.240 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+30-Jan-2021 09:52:14.503 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+30-Jan-2021 09:52:14.616 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+30-Jan-2021 09:52:14.818 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 1255 ms
+30-Jan-2021 09:52:14.852 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\sygealoc##1.0.war has finished in 10,723 ms
+30-Jan-2021 09:52:14.855 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\host-manager
+30-Jan-2021 09:52:15.006 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\host-manager has finished in 152 ms
+30-Jan-2021 09:52:15.007 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\manager
+30-Jan-2021 09:52:15.141 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\manager has finished in 134 ms
+30-Jan-2021 09:52:15.142 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\ROOT
+30-Jan-2021 09:52:15.228 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\ROOT has finished in 85 ms
+30-Jan-2021 09:52:15.257 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-6060"]
+30-Jan-2021 09:52:15.336 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-7009"]
+30-Jan-2021 09:52:15.347 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 11474 ms
+30-Jan-2021 14:51:58.326 WARNING [http-apr-6060-exec-1] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+30-Jan-2021 14:52:09.202 WARNING [http-apr-6060-exec-8] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+30-Jan-2021 14:52:11.600 WARNING [http-apr-6060-exec-9] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+30-Jan-2021 14:52:11.606 WARNING [http-apr-6060-exec-1] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+30-Jan-2021 14:52:11.639 WARNING [http-apr-6060-exec-6] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+30-Jan-2021 14:52:12.365 WARNING [http-apr-6060-exec-1] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+30-Jan-2021 14:52:12.437 WARNING [http-apr-6060-exec-6] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+30-Jan-2021 14:52:12.501 WARNING [http-apr-6060-exec-8] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/sygealoc/Error404.html] in DispatcherServlet with name 'sygealoc'
+
+2021-01-30 15:52:08 Commons Daemon procrun stderr initialized
+30-Jan-2021 15:52:17.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.53
+30-Jan-2021 15:52:17.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 29 2018 14:42:45 UTC
+30-Jan-2021 15:52:17.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.53.0
+30-Jan-2021 15:52:17.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Jan-2021 15:52:17.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Jan-2021 15:52:17.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Jan-2021 15:52:17.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_111
+30-Jan-2021 15:52:17.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+30-Jan-2021 15:52:17.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Jan-2021 15:52:17.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+30-Jan-2021 15:52:17.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+30-Jan-2021 15:52:17.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+30-Jan-2021 15:52:17.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+30-Jan-2021 15:52:17.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\endorsed
+30-Jan-2021 15:52:17.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\temp
+30-Jan-2021 15:52:17.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jan-2021 15:52:17.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\conf\logging.properties
+30-Jan-2021 15:52:17.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+30-Jan-2021 15:52:17.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+30-Jan-2021 15:52:17.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+30-Jan-2021 15:52:17.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+30-Jan-2021 15:52:17.523 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.17 using APR version 1.6.3.
+30-Jan-2021 15:52:17.539 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+30-Jan-2021 15:52:18.814 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2o  27 Mar 2018)
+30-Jan-2021 15:52:28.422 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-6060"]
+30-Jan-2021 15:52:28.456 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-7009"]
+30-Jan-2021 15:52:28.465 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 14464 ms
+30-Jan-2021 15:52:28.760 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-Jan-2021 15:52:28.762 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.53
+30-Jan-2021 15:52:29.058 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\sygealoc##1.0.war
+30-Jan-2021 15:52:45.388 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2021 15:52:45.858 INFO [localhost-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+30-Jan-2021 15:52:46.476 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Sat Jan 30 15:52:46 CST 2021]; root of context hierarchy
+30-Jan-2021 15:52:46.773 INFO [localhost-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+30-Jan-2021 15:52:47.994 INFO [localhost-startStop-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 2120 ms
+30-Jan-2021 15:52:48.463 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [453] milliseconds.
+30-Jan-2021 15:52:48.588 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization started
+30-Jan-2021 15:52:48.603 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Sat Jan 30 15:52:48 CST 2021]; parent: Root WebApplicationContext
+30-Jan-2021 15:52:48.619 INFO [localhost-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/sygealoc-servlet.xml]
+30-Jan-2021 15:52:49.103 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/reservation*] onto handler 'ReservationController'
+30-Jan-2021 15:52:49.119 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/impression*] onto handler 'ImpressionController'
+30-Jan-2021 15:52:49.119 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/erreur*] onto handler 'ErreurController'
+30-Jan-2021 15:52:49.119 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/ajoutervehicule*] onto handler 'AjoutervehiculeController'
+30-Jan-2021 15:52:49.119 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/profile*] onto handler 'ProfileController'
+30-Jan-2021 15:52:49.119 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/employe*] onto handler 'EmployeController'
+30-Jan-2021 15:52:49.119 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/client*] onto handler 'ClientController'
+30-Jan-2021 15:52:49.119 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/location*] onto handler 'LocationController'
+30-Jan-2021 15:52:49.119 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/connexion*] onto handler 'ConnexionController'
+30-Jan-2021 15:52:49.135 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/deconnexion*] onto handler 'DeconnexionController'
+30-Jan-2021 15:52:49.135 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/utilisateur*] onto handler 'UtilisateurController'
+30-Jan-2021 15:52:49.135 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/stock*] onto handler 'VehiculeController'
+30-Jan-2021 15:52:49.135 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/fournisseur*] onto handler 'FournisseurController'
+30-Jan-2021 15:52:49.135 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/verouiller*] onto handler 'VerouillerController'
+30-Jan-2021 15:52:49.135 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/redirect*] onto handler 'RedirectController'
+30-Jan-2021 15:52:49.494 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/tableaudebord] onto handler 'TableaudebordController'
+30-Jan-2021 15:52:49.618 INFO [localhost-startStop-1] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/assets/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+30-Jan-2021 15:52:49.933 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'sygealoc': initialization completed in 1344 ms
+30-Jan-2021 15:52:49.998 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\sygealoc##1.0.war has finished in 20,940 ms
+30-Jan-2021 15:52:50.009 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\host-manager
+30-Jan-2021 15:52:50.273 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\host-manager has finished in 264 ms
+30-Jan-2021 15:52:50.275 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\manager
+30-Jan-2021 15:52:50.502 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\manager has finished in 227 ms
+30-Jan-2021 15:52:50.502 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\ROOT
+30-Jan-2021 15:52:50.714 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\ROOT has finished in 211 ms
+30-Jan-2021 15:52:50.786 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-6060"]
+30-Jan-2021 15:52:50.917 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-7009"]
+30-Jan-2021 15:52:50.929 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 22462 ms
+30-Jan-2021 15:53:23.512 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-6060"]
+30-Jan-2021 15:53:23.714 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-7009"]
+30-Jan-2021 15:53:23.767 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+30-Jan-2021 15:53:24.221 INFO [localhost-startStop-2] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'sygealoc-servlet': startup date [Sat Jan 30 15:52:48 CST 2021]; parent: Root WebApplicationContext
+30-Jan-2021 15:53:24.235 INFO [localhost-startStop-2] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Sat Jan 30 15:52:46 CST 2021]; root of context hierarchy
+30-Jan-2021 15:53:24.313 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-6060"]
+30-Jan-2021 15:53:24.372 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-7009"]
+
+2021-01-30 16:07:35 Commons Daemon procrun stderr initialized
+30-Jan-2021 16:07:40.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.53
+30-Jan-2021 16:07:40.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 29 2018 14:42:45 UTC
+30-Jan-2021 16:07:40.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.53.0
+30-Jan-2021 16:07:40.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Jan-2021 16:07:40.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Jan-2021 16:07:40.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Jan-2021 16:07:40.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_111
+30-Jan-2021 16:07:40.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+30-Jan-2021 16:07:40.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Jan-2021 16:07:40.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+30-Jan-2021 16:07:40.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+30-Jan-2021 16:07:40.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+30-Jan-2021 16:07:40.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+30-Jan-2021 16:07:40.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\endorsed
+30-Jan-2021 16:07:40.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\temp
+30-Jan-2021 16:07:40.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jan-2021 16:07:40.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\conf\logging.properties
+30-Jan-2021 16:07:40.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+30-Jan-2021 16:07:40.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+30-Jan-2021 16:07:40.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+30-Jan-2021 16:07:40.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+30-Jan-2021 16:07:40.263 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.17 using APR version 1.6.3.
+30-Jan-2021 16:07:40.263 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+30-Jan-2021 16:07:41.325 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2o  27 Mar 2018)
+30-Jan-2021 16:07:43.584 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-6060"]
+30-Jan-2021 16:07:43.639 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-7009"]
+30-Jan-2021 16:07:43.658 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 5487 ms
+30-Jan-2021 16:07:43.947 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-Jan-2021 16:07:43.947 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.53
+30-Jan-2021 16:07:44.288 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\host-manager
+30-Jan-2021 16:07:46.485 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [184] milliseconds.
+30-Jan-2021 16:07:46.574 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\host-manager has finished in 2,286 ms
+30-Jan-2021 16:07:46.575 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\manager
+30-Jan-2021 16:07:46.767 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\manager has finished in 192 ms
+30-Jan-2021 16:07:46.768 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\ROOT
+30-Jan-2021 16:07:46.915 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\ROOT has finished in 147 ms
+30-Jan-2021 16:07:47.032 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-6060"]
+30-Jan-2021 16:07:47.230 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-7009"]
+30-Jan-2021 16:07:47.312 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3651 ms
+30-Jan-2021 16:08:04.367 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Jan-2021 16:08:04.368 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-6060"]
+30-Jan-2021 16:08:04.432 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-7009"]
+30-Jan-2021 16:08:04.483 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+30-Jan-2021 16:08:04.647 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-6060"]
+30-Jan-2021 16:08:04.705 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-7009"]
+30-Jan-2021 16:08:04.760 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-6060"]
+30-Jan-2021 16:08:04.762 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-7009"]
+
+2021-01-30 20:09:50 Commons Daemon procrun stderr initialized
+30-Jan-2021 20:09:53.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.53
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 29 2018 14:42:45 UTC
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.53.0
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_111
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\endorsed
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\temp
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\conf\logging.properties
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.17 using APR version 1.6.3.
+30-Jan-2021 20:09:53.568 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+30-Jan-2021 20:09:54.646 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2o  27 Mar 2018)
+30-Jan-2021 20:09:55.693 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-6060"]
+30-Jan-2021 20:09:55.724 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-7009"]
+30-Jan-2021 20:09:55.724 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3631 ms
+30-Jan-2021 20:09:55.818 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+30-Jan-2021 20:09:55.818 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.53
+30-Jan-2021 20:09:55.990 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\host-manager
+30-Jan-2021 20:09:57.583 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [515] milliseconds.
+30-Jan-2021 20:09:57.646 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\host-manager has finished in 1,656 ms
+30-Jan-2021 20:09:57.646 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\manager
+30-Jan-2021 20:09:57.787 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\manager has finished in 141 ms
+30-Jan-2021 20:09:57.787 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\ROOT
+30-Jan-2021 20:09:57.896 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\ROOT has finished in 109 ms
+30-Jan-2021 20:09:57.943 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-6060"]
+30-Jan-2021 20:09:57.974 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-7009"]
+30-Jan-2021 20:09:57.990 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2259 ms

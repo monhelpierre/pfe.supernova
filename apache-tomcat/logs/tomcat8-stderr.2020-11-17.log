@@ -1,0 +1,82 @@
+
+2020-11-17 08:02:47 Commons Daemon procrun stderr initialized
+17-Nov-2020 08:02:56.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.53
+17-Nov-2020 08:02:57.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 29 2018 14:42:45 UTC
+17-Nov-2020 08:02:57.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.53.0
+17-Nov-2020 08:02:57.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Nov-2020 08:02:57.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Nov-2020 08:02:57.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Nov-2020 08:02:57.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_111
+17-Nov-2020 08:02:57.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+17-Nov-2020 08:02:57.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Nov-2020 08:02:57.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+17-Nov-2020 08:02:57.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+17-Nov-2020 08:02:57.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+17-Nov-2020 08:02:57.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+17-Nov-2020 08:02:57.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\endorsed
+17-Nov-2020 08:02:57.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\temp
+17-Nov-2020 08:02:57.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Nov-2020 08:02:57.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\conf\logging.properties
+17-Nov-2020 08:02:57.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+17-Nov-2020 08:02:57.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+17-Nov-2020 08:02:57.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+17-Nov-2020 08:02:57.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+17-Nov-2020 08:02:57.327 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.17 using APR version 1.6.3.
+17-Nov-2020 08:02:57.327 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+17-Nov-2020 08:02:58.586 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2o  27 Mar 2018)
+17-Nov-2020 08:03:06.462 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-6060"]
+17-Nov-2020 08:03:06.493 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-7009"]
+17-Nov-2020 08:03:06.493 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 13540 ms
+17-Nov-2020 08:03:06.697 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+17-Nov-2020 08:03:06.697 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.53
+17-Nov-2020 08:03:06.775 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\host-manager
+17-Nov-2020 08:03:08.619 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [234] milliseconds.
+17-Nov-2020 08:03:08.728 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\host-manager has finished in 1,953 ms
+17-Nov-2020 08:03:08.728 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\manager
+17-Nov-2020 08:03:08.853 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\manager has finished in 125 ms
+17-Nov-2020 08:03:08.853 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\ROOT
+17-Nov-2020 08:03:08.962 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\ROOT has finished in 109 ms
+17-Nov-2020 08:03:08.978 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-6060"]
+17-Nov-2020 08:03:09.009 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-7009"]
+17-Nov-2020 08:03:09.025 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2527 ms
+
+2020-11-17 14:12:58 Commons Daemon procrun stderr initialized
+17-Nov-2020 14:13:07.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.53
+17-Nov-2020 14:13:08.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 29 2018 14:42:45 UTC
+17-Nov-2020 14:13:08.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.53.0
+17-Nov-2020 14:13:08.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Nov-2020 14:13:08.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Nov-2020 14:13:08.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Nov-2020 14:13:08.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_111
+17-Nov-2020 14:13:08.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+17-Nov-2020 14:13:08.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Nov-2020 14:13:08.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+17-Nov-2020 14:13:08.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+17-Nov-2020 14:13:08.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+17-Nov-2020 14:13:08.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat
+17-Nov-2020 14:13:08.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\endorsed
+17-Nov-2020 14:13:08.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\temp
+17-Nov-2020 14:13:08.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Nov-2020 14:13:08.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\conf\logging.properties
+17-Nov-2020 14:13:08.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+17-Nov-2020 14:13:08.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+17-Nov-2020 14:13:08.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+17-Nov-2020 14:13:08.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+17-Nov-2020 14:13:08.745 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.17 using APR version 1.6.3.
+17-Nov-2020 14:13:08.745 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+17-Nov-2020 14:13:09.991 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2o  27 Mar 2018)
+17-Nov-2020 14:13:21.318 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-6060"]
+17-Nov-2020 14:13:21.367 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-7009"]
+17-Nov-2020 14:13:21.375 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 17292 ms
+17-Nov-2020 14:13:21.654 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+17-Nov-2020 14:13:21.654 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.53
+17-Nov-2020 14:13:21.732 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\host-manager
+17-Nov-2020 14:13:26.889 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [643] milliseconds.
+17-Nov-2020 14:13:27.027 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\host-manager has finished in 5,294 ms
+17-Nov-2020 14:13:27.027 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\manager
+17-Nov-2020 14:13:27.236 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\manager has finished in 209 ms
+17-Nov-2020 14:13:27.236 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\ROOT
+17-Nov-2020 14:13:27.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\webapps\ROOT has finished in 219 ms
+17-Nov-2020 14:13:27.472 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-6060"]
+17-Nov-2020 14:13:27.561 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-7009"]
+17-Nov-2020 14:13:27.588 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6211 ms

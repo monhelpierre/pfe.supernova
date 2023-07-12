@@ -1,0 +1,12 @@
+
+2021-02-04 15:50:41 Commons Daemon procrun stdout initialized
+
+2021-02-04 16:26:13 Commons Daemon procrun stdout initialized
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1490576 bytes for Chunk::new
+# An error report file with more information is saved as:
+# C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\hs_err_pid4844.log
+#
+# Compiler replay data is saved as:
+# C:\Users\NHELTECH\Desktop\pfe.supernova\apache-tomcat\replay_pid4844.log

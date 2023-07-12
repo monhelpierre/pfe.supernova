@@ -1,0 +1,131 @@
+19-Oct-2020 19:22:32.842 INFO [http-apr-6060-exec-7] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+19-Oct-2020 19:22:32.983 INFO [http-apr-6060-exec-7] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+19-Oct-2020 19:22:34.329 INFO [http-apr-6060-exec-7] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+19-Oct-2020 19:23:16.514 INFO [http-apr-6060-exec-6] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+19-Oct-2020 19:23:16.612 INFO [http-apr-6060-exec-6] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+19-Oct-2020 19:23:23.240 INFO [http-apr-6060-exec-6] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+19-Oct-2020 19:23:23.334 INFO [http-apr-6060-exec-6] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+19-Oct-2020 19:23:24.454 INFO [http-apr-6060-exec-6] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+19-Oct-2020 19:23:37.998 SEVERE [http-apr-6060-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [sygealoc] in context with path [/sygealoc] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+ java.lang.NullPointerException
+	at supernova.pfe.dao.D_Auth.getTheme(D_Auth.java:378)
+	at supernova.pfe.controller.ConnexionController.handleRequestInternal(ConnexionController.java:37)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:154)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:945)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:876)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+19-Oct-2020 19:24:33.267 INFO [http-apr-6060-exec-14] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+19-Oct-2020 19:24:33.484 INFO [http-apr-6060-exec-14] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+19-Oct-2020 19:24:40.382 INFO [http-apr-6060-exec-14] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+19-Oct-2020 19:24:40.524 INFO [http-apr-6060-exec-14] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+19-Oct-2020 19:24:41.915 INFO [http-apr-6060-exec-14] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+19-Oct-2020 19:24:50.300 INFO [http-apr-6060-exec-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+19-Oct-2020 19:24:50.365 INFO [http-apr-6060-exec-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+19-Oct-2020 19:24:55.659 INFO [http-apr-6060-exec-2] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+19-Oct-2020 19:24:55.749 INFO [http-apr-6060-exec-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+19-Oct-2020 19:24:56.715 INFO [http-apr-6060-exec-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+19-Oct-2020 19:25:02.178 INFO [http-apr-6060-exec-18] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+19-Oct-2020 19:25:02.189 INFO [http-apr-6060-exec-18] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+19-Oct-2020 19:25:07.439 INFO [http-apr-6060-exec-18] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+19-Oct-2020 19:25:07.567 INFO [http-apr-6060-exec-18] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+19-Oct-2020 19:25:08.554 INFO [http-apr-6060-exec-18] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+19-Oct-2020 19:29:11.435 INFO [http-apr-6060-exec-10] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+19-Oct-2020 19:29:11.479 INFO [http-apr-6060-exec-10] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+19-Oct-2020 19:29:20.546 INFO [http-apr-6060-exec-10] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+19-Oct-2020 19:29:20.639 INFO [http-apr-6060-exec-10] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+19-Oct-2020 19:29:21.574 INFO [http-apr-6060-exec-10] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+19-Oct-2020 19:31:14.439 INFO [http-apr-6060-exec-31] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+19-Oct-2020 19:31:14.461 INFO [http-apr-6060-exec-31] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+19-Oct-2020 19:31:19.476 INFO [http-apr-6060-exec-31] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+19-Oct-2020 19:31:19.583 INFO [http-apr-6060-exec-31] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+19-Oct-2020 19:31:20.381 INFO [http-apr-6060-exec-31] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+19-Oct-2020 19:31:56.693 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+19-Oct-2020 19:31:56.742 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+19-Oct-2020 19:32:21.164 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+19-Oct-2020 19:32:21.454 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+19-Oct-2020 19:32:24.480 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+19-Oct-2020 19:37:18.418 INFO [http-apr-6060-exec-6] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+19-Oct-2020 19:37:18.441 INFO [http-apr-6060-exec-6] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+19-Oct-2020 19:37:33.341 INFO [http-apr-6060-exec-6] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+19-Oct-2020 19:37:33.478 INFO [http-apr-6060-exec-6] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+19-Oct-2020 19:37:34.425 INFO [http-apr-6060-exec-6] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+19-Oct-2020 20:35:02.570 INFO [http-apr-6060-exec-17] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+19-Oct-2020 20:35:02.722 WARNING [http-apr-6060-exec-17] org.apache.catalina.session.StandardSession.doWriteObject Cannot serialize session attribute rights for session 26BFCF628B27E5BA118651D82C4EA542
+ java.io.NotSerializableException: supernova.pfe.model.UserPermission
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.ArrayList.writeObject(ArrayList.java:762)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1028)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1715)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1107)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5582)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.manager.ManagerServlet.undeploy(ManagerServlet.java:1399)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:367)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+19-Oct-2020 20:35:02.730 INFO [http-apr-6060-exec-17] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext

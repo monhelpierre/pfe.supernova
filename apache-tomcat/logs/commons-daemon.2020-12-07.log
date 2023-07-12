@@ -1,0 +1,6 @@
+[2020-12-07 08:10:18] [info]  [ 4356] Commons Daemon procrun (1.1.0.0 64-bit) started
+[2020-12-07 08:10:22] [info]  [ 4356] Running 'Tomcat8' Service...
+[2020-12-07 08:10:24] [info]  [ 5924] Starting service...
+[2020-12-07 08:10:29] [info]  [ 5924] Service started in 3483 ms.
+[2020-12-07 09:50:06] [info]  [ 4356] Run service finished.
+[2020-12-07 09:50:06] [info]  [ 4356] Commons Daemon procrun finished

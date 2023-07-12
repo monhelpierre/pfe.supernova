@@ -1,0 +1,1 @@
+Mozilla/5.0_(X11;_Linux_x86_64)_AppleWebKit/537.36_(KHTML,_like_Gecko)_Chrome/104.0.0.0_Safari/537.36	admin	location	0:0:0:0:0:0:0:1	desktop	14-08-2022_19:19:20

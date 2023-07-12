@@ -1,0 +1,4 @@
+13-Oct-2020 17:08:02.615 INFO [http-apr-6060-exec-4] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+13-Oct-2020 17:08:02.748 INFO [http-apr-6060-exec-4] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Oct-2020 17:08:04.612 WARNING [http-apr-6060-exec-4] org.apache.catalina.session.StandardSession.doReadObject Cannot deserialize session attribute rights for session B88FFAED8216E9DC6176DC2F0E99CC4A
+13-Oct-2020 17:08:04.682 INFO [http-apr-6060-exec-4] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'

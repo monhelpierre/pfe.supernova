@@ -1,0 +1,6 @@
+[2021-02-05 08:57:40] [info]  [ 3444] Commons Daemon procrun (1.1.0.0 64-bit) started
+[2021-02-05 08:57:40] [info]  [ 3444] Running 'Tomcat8' Service...
+[2021-02-05 08:57:40] [info]  [14604] Starting service...
+[2021-02-05 08:57:44] [info]  [14604] Service started in 3189 ms.
+[2021-02-05 08:57:56] [info]  [ 3444] Run service finished.
+[2021-02-05 08:57:56] [info]  [ 3444] Commons Daemon procrun finished

@@ -1,0 +1,285 @@
+04-Feb-2021 15:51:18.793 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2021 15:51:18.980 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2021 15:51:21.652 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 16:22:47.529 INFO [http-apr-6060-exec-4] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 16:22:47.540 INFO [http-apr-6060-exec-4] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2021 16:36:43.608 INFO [http-apr-6060-exec-8] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2021 16:36:43.720 INFO [http-apr-6060-exec-8] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2021 16:36:45.178 INFO [http-apr-6060-exec-8] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 17:53:29.123 INFO [http-apr-6060-exec-6] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 17:53:29.314 WARNING [http-apr-6060-exec-6] org.apache.catalina.session.StandardSession.doWriteObject Cannot serialize session attribute rights for session 17C595D494AFD5A173BB1FA7D0FD1DB0
+ java.io.NotSerializableException: supernova.pfe.model.UserPermission
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+	at java.util.ArrayList.writeObject(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1715)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1107)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5582)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3900)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1007)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:351)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+04-Feb-2021 17:53:29.391 INFO [http-apr-6060-exec-6] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2021 17:53:39.546 INFO [http-apr-6060-exec-6] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2021 17:53:39.688 INFO [http-apr-6060-exec-6] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2021 17:53:40.882 WARNING [http-apr-6060-exec-6] org.apache.catalina.session.StandardSession.doReadObject Cannot deserialize session attribute rights for session 17C595D494AFD5A173BB1FA7D0FD1DB0
+04-Feb-2021 17:53:40.961 INFO [http-apr-6060-exec-6] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 17:53:56.197 INFO [http-apr-6060-exec-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 17:53:56.356 INFO [http-apr-6060-exec-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2021 17:54:01.983 INFO [http-apr-6060-exec-2] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2021 17:54:02.107 INFO [http-apr-6060-exec-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2021 17:54:03.363 INFO [http-apr-6060-exec-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 17:55:15.399 INFO [http-apr-6060-exec-12] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 17:55:15.425 INFO [http-apr-6060-exec-12] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2021 17:55:19.925 INFO [http-apr-6060-exec-12] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2021 17:55:20.056 INFO [http-apr-6060-exec-12] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2021 17:55:20.982 INFO [http-apr-6060-exec-12] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 17:56:09.534 INFO [http-apr-6060-exec-13] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 17:56:09.672 INFO [http-apr-6060-exec-13] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2021 17:56:13.943 INFO [http-apr-6060-exec-13] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2021 17:56:14.026 INFO [http-apr-6060-exec-13] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2021 17:56:15.160 INFO [http-apr-6060-exec-13] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 17:56:53.283 INFO [http-apr-6060-exec-20] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 17:56:53.295 INFO [http-apr-6060-exec-20] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2021 17:56:56.628 INFO [http-apr-6060-exec-20] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2021 17:56:56.707 INFO [http-apr-6060-exec-20] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2021 17:56:57.533 INFO [http-apr-6060-exec-20] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 18:06:08.934 INFO [http-apr-6060-exec-30] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 18:06:08.966 WARNING [http-apr-6060-exec-30] org.apache.catalina.session.StandardSession.doWriteObject Cannot serialize session attribute rights for session 17C595D494AFD5A173BB1FA7D0FD1DB0
+ java.io.NotSerializableException: supernova.pfe.model.UserPermission
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+	at java.util.ArrayList.writeObject(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1715)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1107)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5582)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3900)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1007)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:351)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+04-Feb-2021 18:06:08.986 INFO [http-apr-6060-exec-30] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2021 18:06:15.414 INFO [http-apr-6060-exec-30] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2021 18:06:15.495 INFO [http-apr-6060-exec-30] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2021 18:06:16.252 WARNING [http-apr-6060-exec-30] org.apache.catalina.session.StandardSession.doReadObject Cannot deserialize session attribute rights for session 17C595D494AFD5A173BB1FA7D0FD1DB0
+04-Feb-2021 18:06:16.309 INFO [http-apr-6060-exec-30] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 18:18:06.513 INFO [http-apr-6060-exec-40] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 18:18:06.542 WARNING [http-apr-6060-exec-40] org.apache.catalina.session.StandardSession.doWriteObject Cannot serialize session attribute rights for session 17C595D494AFD5A173BB1FA7D0FD1DB0
+ java.io.NotSerializableException: supernova.pfe.model.UserPermission
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+	at java.util.ArrayList.writeObject(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1715)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1107)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5582)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3900)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1007)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:351)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+04-Feb-2021 18:18:06.573 INFO [http-apr-6060-exec-40] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2021 18:18:12.594 INFO [http-apr-6060-exec-40] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2021 18:18:12.691 INFO [http-apr-6060-exec-40] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2021 18:18:13.489 WARNING [http-apr-6060-exec-40] org.apache.catalina.session.StandardSession.doReadObject Cannot deserialize session attribute rights for session 17C595D494AFD5A173BB1FA7D0FD1DB0
+04-Feb-2021 18:18:13.550 INFO [http-apr-6060-exec-40] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 18:18:52.543 INFO [http-apr-6060-exec-41] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 18:18:52.582 INFO [http-apr-6060-exec-41] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2021 18:18:55.933 INFO [http-apr-6060-exec-41] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2021 18:18:56.012 INFO [http-apr-6060-exec-41] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2021 18:18:56.890 INFO [http-apr-6060-exec-41] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 18:29:27.813 INFO [http-apr-6060-exec-47] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 18:29:27.834 WARNING [http-apr-6060-exec-47] org.apache.catalina.session.StandardSession.doWriteObject Cannot serialize session attribute rights for session 17C595D494AFD5A173BB1FA7D0FD1DB0
+ java.io.NotSerializableException: supernova.pfe.model.UserPermission
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+	at java.util.ArrayList.writeObject(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at java.io.ObjectStreamClass.invokeWriteObject(Unknown Source)
+	at java.io.ObjectOutputStream.writeSerialData(Unknown Source)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1715)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1107)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5582)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3900)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1007)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:351)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:94)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:604)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:502)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1152)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:684)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2527)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2516)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+04-Feb-2021 18:29:27.902 INFO [http-apr-6060-exec-47] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2021 18:29:34.066 INFO [http-apr-6060-exec-47] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2021 18:29:34.202 INFO [http-apr-6060-exec-47] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2021 18:29:35.009 WARNING [http-apr-6060-exec-47] org.apache.catalina.session.StandardSession.doReadObject Cannot deserialize session attribute rights for session 17C595D494AFD5A173BB1FA7D0FD1DB0
+04-Feb-2021 18:29:35.100 INFO [http-apr-6060-exec-47] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 18:29:53.429 INFO [http-apr-6060-exec-45] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 18:29:53.527 INFO [http-apr-6060-exec-45] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2021 18:29:58.199 INFO [http-apr-6060-exec-45] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2021 18:29:58.290 INFO [http-apr-6060-exec-45] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2021 18:29:59.629 INFO [http-apr-6060-exec-45] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 18:30:07.895 INFO [http-apr-6060-exec-48] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 18:30:07.910 INFO [http-apr-6060-exec-48] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2021 18:30:11.425 INFO [http-apr-6060-exec-48] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2021 18:30:11.500 INFO [http-apr-6060-exec-48] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2021 18:30:12.257 INFO [http-apr-6060-exec-48] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 18:34:14.353 INFO [http-apr-6060-exec-53] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 18:34:14.377 INFO [http-apr-6060-exec-53] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2021 18:34:18.311 INFO [http-apr-6060-exec-53] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2021 18:34:18.424 INFO [http-apr-6060-exec-53] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2021 18:34:19.820 INFO [http-apr-6060-exec-53] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 18:34:27.036 INFO [http-apr-6060-exec-60] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'sygealoc'
+04-Feb-2021 18:34:27.043 INFO [http-apr-6060-exec-60] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+04-Feb-2021 18:34:30.325 INFO [http-apr-6060-exec-60] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+04-Feb-2021 18:34:30.402 INFO [http-apr-6060-exec-60] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+04-Feb-2021 18:34:31.158 INFO [http-apr-6060-exec-60] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'sygealoc'
