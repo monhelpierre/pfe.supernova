@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 13, 2023 at 12:42 AM
+-- Generation Time: Oct 13, 2023 at 03:43 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.28
 
@@ -117,7 +117,7 @@ CREATE TABLE `employe` (
 --
 
 INSERT INTO `employe` (`ID`, `NOMCOMPLET`, `SEXE`, `DATENAISSANCE`, `ADRESSE`, `NIF`, `POSTE`, `TELEPHONE`, `EMAIL`, `PSEUDO`, `MOTDEPASSE`, `ETAT`, `USERCREATED`, `DATECREATED`, `USERUPDATED`, `DATEUPDATED`) VALUES
-(1, 'Monhel Maudoony Pierre', 'MASCULIN', '1994-10-24', 'Rua Santa Edvirges #35', '11330474163', 'admin', '34999425030', 'monhelmaudoonypierre@gmail.com', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'ACTIF', 0, '12-10-2023 13:49:47', 0, NULL),
+(1, 'Monhel Maudoony Pierre', 'MASCULIN', '1994-10-24', 'Rua Santa Edvirges #35', '000-000-000-0', 'Administrateur', '56457893', 'monhelmaudoonypierre@gmail.com', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'ACTIF', 0, '12-10-2023 13:49:47', 1, '13-10-2023 10:20:54'),
 (393562, 'Robertha Aurelien', 'FEMININ', '27/04/1994', '60 bis, Bienac 23, K-Soley', '777-777-777-7', 'Comptable', '50949491', 'aurelienrobertha@gmail.com', 'robbie', 'fa774183ab00517107b0a5bf61f91e97', 'ACTIF', 1, '12-10-2023 17:25:48', NULL, '12-10-2023 19:40:59');
 
 -- --------------------------------------------------------
@@ -149,6 +149,7 @@ CREATE TABLE `fournisseur` (
 --
 
 INSERT INTO `fournisseur` (`ID`, `NOMENTREPRISE`, `SIEGESOCIAL`, `TELEPHONE`, `EMAIL`, `ADRESSE`, `REPRESENTANT`, `NUMEROPASSPORT`, `CIN`, `PATENTE`, `SITEWEB`, `USERCREATED`, `DATECREATED`, `USERUPDATED`, `DATEUPDATED`) VALUES
+(408686, 'TOYOTA', 'JAPON', '76878767', 'toyota@gmail.com', 'Yhuhuujj', 'Liu Jing', 'GV584958', '87-69-80-8767-87-97965', '897645678976543', 'https://toyota.com', 1, '13-10-2023 10:22:47', NULL, NULL),
 (761248, 'MAZDA', 'USA', '17894349', 'mazda@gmail.com', 'gtrfedkjfrmkefdjs', 'Bill Moron', 'GV8789494', '48-93-85-9384-93-84343', '8798989889', '', 1, '12-10-2023 17:41:56', 1, '12-10-2023 17:42:08');
 
 -- --------------------------------------------------------
@@ -283,7 +284,7 @@ CREATE TABLE `reservation` (
 --
 
 INSERT INTO `reservation` (`ID`, `CLIENT`, `VEHICULE`, `DATEDEBUT`, `NBJOUR`, `VERSEMENT`, `BALANCE`, `LIVRE`, `ETAT`, `USERCREATED`, `DATECREATED`, `USERUPDATED`, `DATEUPDATED`) VALUES
-(927434, 256812, 870632, '12-10-2023', 80, 2000, 2000, 'NON', 'ACTIF', 1, '12-10-2023 18:01:29', NULL, '12-10-2023 19:38:02');
+(927434, 256812, 870632, '12-10-2023', 80, 2000, 2000, 'NON', 'ACTIF', 1, '12-10-2023 18:01:29', NULL, '13-10-2023 10:26:25');
 
 -- --------------------------------------------------------
 
@@ -393,6 +394,8 @@ CREATE TABLE `vehicule` (
 
 INSERT INTO `vehicule` (`ID`, `FOURNISSEUR`, `TYPE`, `COULEUR`, `MARQUE`, `MODEL`, `ANNEE`, `TRANSMISSION`, `NUMMOTEUR`, `NUMPLAQUE`, `TYPEMOTEUR`, `PRIXPARJOUR`, `ETAT`, `IMAGE`, `USERCREATED`, `DATECREATED`, `USERUPDATED`, `DATEUPDATED`) VALUES
 (9248, 761248, '4Ã4', 'Noire', 'Jams', 'AZ#$RF', '2020', 'AUTOMATIQUE', 'DAFSADD$898', 'LO-46564', 'GASOLINE', '70', 'LOUÉ', 'assets/uploads/vehicule/image497892vehicule.jpeg', 1, '12-10-2023 18:05:48', NULL, '12-10-2023 18:28:29'),
+(53818, 408686, '4×4', 'Jaune', 'Swift', 'HJ89090', '2017', 'AUTOMATIQUE', '8956454', 'LO-32435', 'GASOLINE', '25', 'LIBRE', 'assets/uploads/vehicule/image702311vehicule.jpeg', 1, '13-10-2023 10:41:12', 1, '13-10-2023 10:43:02'),
+(560944, 408686, 'Cabriolet', 'Grise', 'Jams', '54676878764', '2020', 'MANUEL', '098763456789', 'LO-56789', 'DIESEL', '98', 'LIBRE', 'assets/uploads/vehicule/image889164vehicule.jpeg', 1, '13-10-2023 10:39:22', NULL, NULL),
 (870632, 761248, 'Coupe', 'Bleu', 'Cooper', 'AZT67', '2022', 'MANUEL', 'X45UHJKOO', 'LO-49494', 'DIESEL', '50', 'RESERVÉ', 'assets/uploads/vehicule/image109804vehicule.jpeg', 1, '12-10-2023 17:45:32', NULL, '12-10-2023 18:01:29');
 
 --
@@ -572,7 +575,7 @@ ALTER TABLE `userpermission`
 -- AUTO_INCREMENT for table `vehicule`
 --
 ALTER TABLE `vehicule`
-  MODIFY `ID` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=870633;
+  MODIFY `ID` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=892418;
 
 --
 -- Constraints for dumped tables

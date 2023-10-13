@@ -232,11 +232,11 @@
                             </thead>
 
                             <tbody>
-                            <td><%=new D_Vehicule().getWhereState("Libre")%></td>
-                            <td><%=new D_Vehicule().getWhereState("Reservé")%></td>
-                            <td><%=new D_Vehicule().getWhereState("Loué")%></td>
-                            <td><%=new D_Vehicule().getWhereState("En retard")%></td>
-                            <td><%=new D_Vehicule().getWhereState("En reparation")%></td>
+                            <td><%=new D_Vehicule().getWhereState("LIBRE")%></td>
+                            <td><%=new D_Vehicule().getWhereState("RESERVÉ")%></td>
+                            <td><%=new D_Vehicule().getWhereState("LOUÉ")%></td>
+                            <td><%=new D_Vehicule().getWhereState("EN RETARD")%></td>
+                            <td><%=new D_Vehicule().getWhereState("EN REPARATION")%></td>
                             <td style="color: red"><%=new D_Vehicule().get().size()%></td>
                             </tbody>
                         </table>
@@ -261,27 +261,27 @@
                     <div class="col-lg-2">
                         <select class="d-md-block d-none form-control" id="STATE">
                             <option value="" class="default">Etat</option>
-                            <option>Libre</option>
-                            <option>Reservé</option>
-                            <option>Loué</option>
-                            <option>En retard</option>
-                            <option>En reparation</option>
+                            <option>LIBRE</option>
+                            <option>RESERVÉ</option>
+                            <option>LOUÉ</option>
+                            <option>EN RETARD</option>
+                            <option>EN REPARATION</option>
                         </select>
                     </div>
 
                     <div class="col-lg-2">
                         <select class="d-md-block d-none form-control" id="TRANSMISSION">
                             <option value="" class="default">Transmission</option>
-                            <option>Manuel</option>
-                            <option>Automatique</option>
+                            <option>MANUEL</option>
+                            <option>AUTOMATIQUE</option>
                         </select>
                     </div>
 
                     <div class="col-lg-2">
                         <select class="d-md-block d-none form-control" id="MOTEUR">
                             <option value="" class="default">Moteur</option>
-                            <option>Diesel</option>
-                            <option>Gasoline</option>
+                            <option>DIESEL</option>
+                            <option>GASOLINE</option>
                         </select>
                     </div>
 
@@ -338,17 +338,17 @@
                             <img class="img-fluid" src="${pageContext.request.contextPath}/<%=v.IMAGE().isEmpty() || !new File(MySession.path.replace("assets", "") + v.IMAGE()).exists() ? "assets/90x90.jpg" : v.IMAGE()%>" alt="">
                             <div class="car-overlay-banner">
                                 <ul> 
-                                    <%if (v.ETAT().equals("Libre") || v.ETAT().equals("En reparation")) {%>
+                                    <%if (v.ETAT().equals("LIBRE") || v.ETAT().equals("EN REPARATION")) {%>
                                     <%if (r != null && r != null && r.get(3).getCAN_EDIT().equals("1")) {%>
                                     <li><a title="MODIFIER" href="#" onclick="prepareModification('<%=v.ID()%>')"><i class="fa fa-edit"></i></a></li>
                                             <%}%>
                                             <%if (r != null && r != null && r.get(4).getCAN_ADD().equals("1")) {
-                                            if(!v.ETAT().equals("En reparation")){%>
+                                            if(!v.ETAT().equals("EN REPARATION")){%>
                                     <li><a title="RESERVER" href="#" onclick="addReservation('<%=v.ID()%>')"><i class="las la-money-bill-wave-alt"></i></a></li>
                                             <%}}%>
 
                                     <%if (r != null && r != null && r.get(5).getCAN_ADD().equals("1")) {
-                                    if(!v.ETAT().equals("En reparation")){%>
+                                    if(!v.ETAT().equals("EN REPARATION")){%>
                                     <li><a title="LOUER" href="#" onclick="addLocation('<%=v.ID()%>')"><i class="las la-hand-holding-usd"></i></a></li>
                                             <%}}
                                             %>
@@ -654,7 +654,7 @@
                                             dataType: 'json',
                                             success: function (res) {
                                                 if (res.msg == "succes") {
-                                                    if (member[13] == "Libre") {
+                                                    if (member[13] == "LIBRE") {
                                                         holdModal("DelVehiculeModal");
                                                     } else {
                                                         toastr.error("Impossible de supprimer un vehicule non libre", "${company.getCOMPANYNAME().toUpperCase()} - ${active_menu.toUpperCase()} ");
