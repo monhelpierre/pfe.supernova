@@ -39,22 +39,22 @@ public class ReservationController extends AbstractController {
         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
 
         for (Reservation r : res) {
-            if (!r.ETAT().equals("Annulé")) {
+            if (!r.ETAT().equals("ANNULÉ")) {
                 Date datefin = sdf.parse(r.DATEDEBUT());
                 datefin.setDate(datefin.getDate() + Integer.parseInt(r.NBJOUR()));
                 if (datefin.getTime() < new Date().getTime()) {
-                    if (r.ETAT().equals("Actif")) {
-                        r.ETAT("Terminé");
+                    if (r.ETAT().equals("ACTIF")) {
+                        r.ETAT("TERMINÉ");
                     }
                 } else {
-                    if (r.ETAT().equals("Terminé")) {
-                        r.ETAT("Actif");
+                    if (r.ETAT().equals("TERMINÉ")) {
+                        r.ETAT("ACTIF");
                     }
                 }
-                if (r.LIVRE().equals("Oui")) {
-                    r.ETAT("Terminé");
+                if (r.LIVRE().equals("OUI")) {
+                    r.ETAT("TERMINÉ");
                 } else {
-                    r.ETAT("Actif");
+                    r.ETAT("ACTIF");
                 }
                 new D_Reservation().update(r);
             }

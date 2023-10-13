@@ -35,11 +35,11 @@
         Form_validation.setRules(rules, request);
         HashMap<String, Integer> rightsdata = new HashMap<>();
         String message = null;
-        int canview = 0;
-        int canadd = 0;
-        int canedit = 0;
-        int candelete = 0;
-        int canprint = 0;
+        String canview = "0";
+        String canadd = "0";
+        String canedit = "0";
+        String candelete = "0";
+        String canprint = "0";
 
         if (Form_validation.run()) {
             if (ID != null && !ID.isEmpty()) {
@@ -59,11 +59,11 @@
                         rightsdata.put(right[0], Integer.parseInt(right[1]));
                     }
                     for (int i = 1; i < 8; i++) {
-                        canview = rightsdata.get("canview" + i) == null ? 0 : rightsdata.get("canview" + i);
-                        canadd = rightsdata.get("canadd" + i) == null ? 0 : rightsdata.get("canadd" + i);
-                        canedit = rightsdata.get("canedit" + i) == null ? 0 : rightsdata.get("canedit" + i);
-                        candelete = rightsdata.get("candelete" + i) == null ? 0 : rightsdata.get("candelete" + i);
-                        canprint = rightsdata.get("canprint" + i) == null ? 0 : rightsdata.get("canprint" + i);
+                        canview = rightsdata.get("canview" + i) == null ? "0" : rightsdata.get("canview" + i) +"";
+                        canadd = rightsdata.get("canadd" + i) == null ? "0" : rightsdata.get("canadd" + i) +"";
+                        canedit = rightsdata.get("canedit" + i) == null ? "0" : rightsdata.get("canedit" + i) +"";
+                        candelete = rightsdata.get("candelete" + i) == null ? "0" : rightsdata.get("candelete" + i) +"";
+                        canprint = rightsdata.get("canprint" + i) == null ? "0" : rightsdata.get("canprint" + i) +"";
 
                         UserPermission up = new UserPermission(0, Integer.parseInt(personnel), i, canview, canadd, canedit, candelete, canprint);
                         int oldid = new D_UserPermission().has(Integer.parseInt(personnel), i);

@@ -32,11 +32,11 @@ public class D_PermissionCategory {
                     + "VALUES (?, ?, ?, ?, ?, ?, ?)");
             ps.setInt(1, v.getID());
             ps.setInt(2, v.getMODULE());
-            ps.setInt(3, v.getCAN_VIEW());
-            ps.setInt(4, v.getCAN_ADD());
-            ps.setInt(5, v.getCAN_EDIT());
-            ps.setInt(6, v.getCAN_DELETE());
-            ps.setInt(7, v.getCAN_PRINT());
+            ps.setString(3, v.getCAN_VIEW());
+            ps.setString(4, v.getCAN_ADD());
+            ps.setString(5, v.getCAN_EDIT());
+            ps.setString(6, v.getCAN_DELETE());
+            ps.setString(7, v.getCAN_PRINT());
             i = ps.executeUpdate();
         } catch (SQLException ex) {
             Logger.getLogger(D_Auth.class.getName()).log(Level.SEVERE, null, ex);
@@ -50,11 +50,11 @@ public class D_PermissionCategory {
             ps = Db_access.con.prepareStatement("UPDATE  `permissioncategory` SET MODULE = ?, CAN_VIEW = ?, CAN_ADD = ?, "
                     + "CAN_EDIT = ?, CAN_DELETE = ?, CAN_PRINT = ? WHERE ID = ?");
             ps.setInt(1, v.getMODULE());
-            ps.setInt(2, v.getCAN_VIEW());
-            ps.setInt(3, v.getCAN_ADD());
-            ps.setInt(4, v.getCAN_EDIT());
-            ps.setInt(5, v.getCAN_DELETE());
-            ps.setInt(6, v.getCAN_PRINT());
+            ps.setString(2, v.getCAN_VIEW());
+            ps.setString(3, v.getCAN_ADD());
+            ps.setString(4, v.getCAN_EDIT());
+            ps.setString(5, v.getCAN_DELETE());
+            ps.setString(6, v.getCAN_PRINT());
             ps.setInt(7, v.getID());
             i = ps.executeUpdate();
         } catch (SQLException ex) {
@@ -85,8 +85,8 @@ public class D_PermissionCategory {
             while (rs.next()) {
                 data = new PermissionCategory(
                         rs.getInt("ID"), rs.getInt("MODULE"),
-                        rs.getInt("CAN_VIEW"), rs.getInt("CAN_ADD"), rs.getInt("CAN_EDIT"),
-                        rs.getInt("CAN_DELETE"), rs.getInt("CAN_PRINT")
+                        rs.getString("CAN_VIEW"), rs.getString("CAN_ADD"), rs.getString("CAN_EDIT"),
+                        rs.getString("CAN_DELETE"), rs.getString("CAN_PRINT")
                 );
             }
         } catch (SQLException ex) {
@@ -106,8 +106,8 @@ public class D_PermissionCategory {
             while (rs.next()) {
                 tmp = new PermissionCategory(
                         rs.getInt("ID"), rs.getInt("MODULE"),
-                        rs.getInt("CAN_VIEW"), rs.getInt("CAN_ADD"), rs.getInt("CAN_EDIT"),
-                        rs.getInt("CAN_DELETE"), rs.getInt("CAN_PRINT")
+                        rs.getString("CAN_VIEW"), rs.getString("CAN_ADD"), rs.getString("CAN_EDIT"),
+                        rs.getString("CAN_DELETE"), rs.getString("CAN_PRINT")
                 );
                 data.add(tmp);
             }
@@ -125,8 +125,8 @@ public class D_PermissionCategory {
             while (rs.next()) {
                 PermissionCategory tmp = new PermissionCategory(
                         rs.getInt("ID"), rs.getInt("MODULE"),
-                        rs.getInt("CAN_VIEW"), rs.getInt("CAN_ADD"), rs.getInt("CAN_EDIT"),
-                        rs.getInt("CAN_DELETE"), rs.getInt("CAN_PRINT")
+                        rs.getString("CAN_VIEW"), rs.getString("CAN_ADD"), rs.getString("CAN_EDIT"),
+                        rs.getString("CAN_DELETE"), rs.getString("CAN_PRINT")
                 );
                 data.add(tmp);
             }

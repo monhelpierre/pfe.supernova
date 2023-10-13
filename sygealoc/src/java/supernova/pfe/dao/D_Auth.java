@@ -47,7 +47,7 @@ public class D_Auth {
             ps.setString(9, v.EMAIL());
             ps.setString(10, v.PSEUDO());
             ps.setString(11, v.MOTDEPASSE());
-            ps.setString(12, v.ETAT());
+            ps.setString(12, "ACTIF");
             ps.setString(13, v.USERCREATED());
             ps.setString(14, MyDate.current_fr());
             i = ps.executeUpdate();
@@ -218,7 +218,9 @@ public class D_Auth {
         try {
             ps = Db_access.con.prepareStatement("SELECT * FROM employe WHERE PSEUDO = ? AND MOTDEPASSE = ?");
             ps.setString(1, username);
-            ps.setString(2, MD5.generate(password));
+            ps.setString(2, MD5.generate(password));          
+            /*ps.setString(2, password);*/ 
+
             rs = ps.executeQuery();
             while (rs.next()) {
                 data = new Employe(

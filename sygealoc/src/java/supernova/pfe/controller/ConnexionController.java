@@ -48,7 +48,7 @@ public class ConnexionController extends AbstractController {
             if (Form_validation.run()) {
                 Employe mb = new D_Auth().get(username, password);
                 if (mb != null) {
-                    if (mb.ETAT().equals("Actif")) {
+                    if (mb.ETAT().equals("ACTIF")) {
                         request.getSession().setAttribute("member_info", mb);
                         request.getSession().setAttribute("rights", new D_UserPermission().getPerm(mb.ID()));
                         request.getSession().setAttribute("welcome", "Bienvenue, " + mb.PSEUDO() + " !");

@@ -72,20 +72,20 @@
                 Location oldloc = new D_Location().get(Integer.parseInt(ID));
                 if (oldloc.VEHICULE() != null && !oldloc.VEHICULE().equals(VEHICULE)) {
                     Vehicule oldv = new D_Vehicule().get(Integer.parseInt(oldloc.VEHICULE().trim()));
-                    oldv.ETAT("Libre");
+                    oldv.ETAT("LIBRE");
                     new D_Vehicule().update(oldv);
                 }
             }
 
             Vehicule v = new D_Vehicule().get(Integer.parseInt(VEHICULE.trim()));
-            if (m.VEHICULERETOURNE().equals("Non")) {
-                if (m.ETAT().equals("Terminé")) {
-                    v.ETAT("En retard");
+            if (m.VEHICULERETOURNE().equals("NON")) {
+                if (m.ETAT().equals("TERMINÉ")) {
+                    v.ETAT("EN RETARD");
                 } else {
-                    v.ETAT("Loué");
+                    v.ETAT("LOUÉ");
                 }
             } else {
-                v.ETAT("Libre");
+                v.ETAT("LIBRE");
             }
 
             SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
@@ -94,19 +94,19 @@
 
             double dette = 0;
             if (datefin.getTime() < new Date().getTime()) {
-                if (m.VEHICULERETOURNE().equals("Non")) {
-                    v.ETAT("En retard");                    
+                if (m.VEHICULERETOURNE().equals("NON")) {
+                    v.ETAT("EN RETARD");                    
                     int nbhourslate = new DateDifference(datefin, new Date()).get() * 24;
                     dette = ((Double.parseDouble(v.PRIXPARJOUR()) /24) * nbhourslate);
                 } else {
-                    v.ETAT("Libre");
+                    v.ETAT("LIBRE");
                 }
-                m.ETAT("Terminé");
+                m.ETAT("TERMINÉ");
                 new D_Vehicule().update(v);
             } else {
-                if (m.VEHICULERETOURNE().equals("Non")) {
-                    v.ETAT("Loué");
-                    m.ETAT("Actif");
+                if (m.VEHICULERETOURNE().equals("NON")) {
+                    v.ETAT("LOUÉ");
+                    m.ETAT("ACTIF");
                 }
             }
             m.DETTE(dette + "");            

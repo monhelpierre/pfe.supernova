@@ -12,13 +12,13 @@ package supernova.pfe.model;
 public class PermissionCategory {
     private int ID;
     private int MODULE;
-    private int CAN_VIEW;
-    private int CAN_ADD;
-    private int CAN_EDIT;
-    private int CAN_DELETE;
-    private int CAN_PRINT;
+    private String CAN_VIEW;
+    private String CAN_ADD;
+    private String CAN_EDIT;
+    private String CAN_DELETE;
+    private String CAN_PRINT;
 
-    public PermissionCategory(int ID, int MODULE, int CAN_VIEW, int CAN_ADD, int CAN_EDIT, int CAN_DELETE, int CAN_PRINT) {
+    public PermissionCategory(int ID, int MODULE, String CAN_VIEW, String CAN_ADD, String CAN_EDIT, String CAN_DELETE, String CAN_PRINT) {
         this.ID = ID;
         this.MODULE = MODULE;
         this.CAN_VIEW = CAN_VIEW;
@@ -44,45 +44,43 @@ public class PermissionCategory {
         this.MODULE = MODULE;
     }
 
-    public int getCAN_VIEW() {
+    public String getCAN_VIEW() {
         return CAN_VIEW;
     }
 
-    public void setCAN_VIEW(int CAN_VIEW) {
+    public void setCAN_VIEW(String CAN_VIEW) {
         this.CAN_VIEW = CAN_VIEW;
     }
 
-    public int getCAN_ADD() {
+    public String getCAN_ADD() {
         return CAN_ADD;
     }
 
-    public void setCAN_ADD(int CAN_ADD) {
+    public void setCAN_ADD(String CAN_ADD) {
         this.CAN_ADD = CAN_ADD;
     }
 
-    public int getCAN_EDIT() {
+    public String getCAN_EDIT() {
         return CAN_EDIT;
     }
 
-    public void setCAN_EDIT(int CAN_EDIT) {
+    public void setCAN_EDIT(String CAN_EDIT) {
         this.CAN_EDIT = CAN_EDIT;
     }
 
-    public int getCAN_DELETE() {
+    public String getCAN_DELETE() {
         return CAN_DELETE;
     }
 
-    public void setCAN_DELETE(int CAN_DELETE) {
+    public void setCAN_DELETE(String CAN_DELETE) {
         this.CAN_DELETE = CAN_DELETE;
     }
 
-    public int getCAN_PRINT() {
+    public String getCAN_PRINT() {
         return CAN_PRINT;
     }
 
-    public void setCAN_PRINT(int CAN_PRINT) {
+    public void setCAN_PRINT(String CAN_PRINT) {
         this.CAN_PRINT = CAN_PRINT;
     }
-    
-    
 }

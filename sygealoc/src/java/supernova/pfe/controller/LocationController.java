@@ -40,19 +40,19 @@ public class LocationController extends AbstractController {
             Vehicule vh = new D_Vehicule().get(Integer.parseInt(l.VEHICULE()));
             double dette = 0;
             if (datefin.getTime() < new Date().getTime()) {
-                if (l.VEHICULERETOURNE().equals("Non")) {
-                    vh.ETAT("En retard");
+                if (l.VEHICULERETOURNE().equals("NON")) {
+                    vh.ETAT("EN RETARD");
                     int nbhourslate = new DateDifference(datefin, new Date()).get() * 24;
                     dette = ((Double.parseDouble(vh.PRIXPARJOUR()) /24) * nbhourslate);
                 } else {
-                    vh.ETAT("Libre");
+                    vh.ETAT("LIBRE");
                 }
-                l.ETAT("Terminé");
+                l.ETAT("TERMINÉ");
                 new D_Vehicule().update(vh);
             } else {
-                if (l.VEHICULERETOURNE().equals("Non")) {
-                    vh.ETAT("Loué");
-                    l.ETAT("Actif");
+                if (l.VEHICULERETOURNE().equals("NON")) {
+                    vh.ETAT("LOUÉ");
+                    l.ETAT("ACTIF");
                 }
             }
             l.DETTE(dette + "");

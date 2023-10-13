@@ -55,39 +55,39 @@
                     Reservation oldloc = new D_Reservation().get(Integer.parseInt(ID));
                     if (oldloc.VEHICULE() != null && !oldloc.VEHICULE().equals(VEHICULE)) {
                         Vehicule oldv = new D_Vehicule().get(Integer.parseInt(oldloc.VEHICULE().trim()));
-                        oldv.ETAT("Libre");
+                        oldv.ETAT("LIBRE");
                         new D_Vehicule().update(oldv);
                     }
                 }
 
                 Vehicule v = new D_Vehicule().get(Integer.parseInt(VEHICULE.trim()));
-                if (!m.ETAT().equals("Actif")) {
-                    v.ETAT("Libre");
+                if (!m.ETAT().equals("ACTIF")) {
+                    v.ETAT("LIBRE");
                 } else {
-                    v.ETAT("Reservé");
+                    v.ETAT("RESERVÉ");
                 }
 
                 if (ID != null && !ID.trim().isEmpty()) {
                     m.USERUPDATED(((Employe) request.getSession().getAttribute("member_info")).ID() + "");
-                    if (m.ETAT().equals("Annulé")) {
-                        m.LIVRE("Non");
+                    if (m.ETAT().equals("ANNULÉ")) {
+                        m.LIVRE("NON");
                     }
 
                     if (new D_Reservation().update(m) > 0) {
-                        if (m.ETAT().equals("Actif") || m.ETAT().equals("Terminé")) {
-                            if (m.LIVRE().equals("Oui")) {
+                        if (m.ETAT().equals("ACTIF") || m.ETAT().equals("TERMINÉ")) {
+                            if (m.LIVRE().equals("OUI")) {
                                 Location loc = new Location(m.ID(),
                                         m.CLIENT(),
                                         m.VEHICULE(),
                                         m.DATEDEBUT(),
                                         MyDate.now().split(" ")[1],
                                         m.NBJOUR(),
-                                        "Non",
+                                        "NON",
                                         "0",
                                         m.ETAT());
                                 new D_Location().insert(loc);
                                 new D_Location().update(loc);
-                                v.ETAT("Loué");
+                                v.ETAT("LOUÉ");
                             } else {
                                 new D_Location().delete(Integer.parseInt(m.ID()));
                             }
