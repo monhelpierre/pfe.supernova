@@ -342,12 +342,12 @@
                                     <%if (r != null && r != null && r.get(3).getCAN_EDIT().equals("1")) {%>
                                     <li><a title="MODIFIER" href="#" onclick="prepareModification('<%=v.ID()%>')"><i class="fa fa-edit"></i></a></li>
                                             <%}%>
-                                            <%if (r != null && r != null && r.get(4).getCAN_ADD().equals("1")) {
+                                            <%if (r != null && r != null && r.get(3).getCAN_ADD().equals("1")) {
                                             if(!v.ETAT().equals("EN REPARATION")){%>
                                     <li><a title="RESERVER" href="#" onclick="addReservation('<%=v.ID()%>')"><i class="las la-money-bill-wave-alt"></i></a></li>
                                             <%}}%>
 
-                                    <%if (r != null && r != null && r.get(5).getCAN_ADD().equals("1")) {
+                                    <%if (r != null && r != null && r.get(3).getCAN_ADD().equals("1")) {
                                     if(!v.ETAT().equals("EN REPARATION")){%>
                                     <li><a title="LOUER" href="#" onclick="addLocation('<%=v.ID()%>')"><i class="las la-hand-holding-usd"></i></a></li>
                                             <%}}

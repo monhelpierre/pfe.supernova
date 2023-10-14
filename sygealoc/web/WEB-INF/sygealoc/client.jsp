@@ -214,7 +214,7 @@
                                             <td>${m.PERMIS()}</td>
                                             <td>${m.DATEDEXPIRATION()}</td>
                                             <td>${m.PATENTE()}</td>
-                                            <%if (r != null && (r.get(0).getCAN_EDIT().equals("1") || r.get(0).getCAN_DELETE().equals("1"))) {%>
+                                            <%if (r != null && (r.get(1).getCAN_EDIT().equals("1") || r.get(1).getCAN_DELETE().equals("1"))) {%>
                                             <td>
                                                 <%if (r != null && r.get(1).getCAN_EDIT().equals("1")) {%>
                                                 <a href="#" onclick="showEditModal('${m.ID()}')" class="primary edit mr-1" title="Modifier"><i class="la la-pencil"></i></a>

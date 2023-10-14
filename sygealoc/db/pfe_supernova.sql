@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 13, 2023 at 03:43 PM
+-- Generation Time: Oct 14, 2023 at 05:00 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.28
 
@@ -118,7 +118,8 @@ CREATE TABLE `employe` (
 
 INSERT INTO `employe` (`ID`, `NOMCOMPLET`, `SEXE`, `DATENAISSANCE`, `ADRESSE`, `NIF`, `POSTE`, `TELEPHONE`, `EMAIL`, `PSEUDO`, `MOTDEPASSE`, `ETAT`, `USERCREATED`, `DATECREATED`, `USERUPDATED`, `DATEUPDATED`) VALUES
 (1, 'Monhel Maudoony Pierre', 'MASCULIN', '1994-10-24', 'Rua Santa Edvirges #35', '000-000-000-0', 'Administrateur', '56457893', 'monhelmaudoonypierre@gmail.com', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'ACTIF', 0, '12-10-2023 13:49:47', 1, '13-10-2023 10:20:54'),
-(393562, 'Robertha Aurelien', 'FEMININ', '27/04/1994', '60 bis, Bienac 23, K-Soley', '777-777-777-7', 'Comptable', '50949491', 'aurelienrobertha@gmail.com', 'robbie', 'fa774183ab00517107b0a5bf61f91e97', 'ACTIF', 1, '12-10-2023 17:25:48', NULL, '12-10-2023 19:40:59');
+(393562, 'Robertha Aurelien', 'FEMININ', '27/04/1994', '60 bis, Bienac 23, K-Soley', '777-777-777-7', 'Comptable', '50949491', 'aurelienrobertha@gmail.com', 'robbie', 'fa774183ab00517107b0a5bf61f91e97', 'ACTIF', 1, '12-10-2023 17:25:48', NULL, '14-10-2023 11:27:39'),
+(608306, 'Luc Andre', 'MASCULIN', '14/10/1984', 'P26-E, Village Ecam', '987-654-678-9', 'Secretaire', '43567890', 'andreluc@gmail.com', 'luc', '2e6fdbc573b2975790d504991183519e', 'ACTIF', 393562, '14-10-2023 11:55:56', NULL, '14-10-2023 11:56:36');
 
 -- --------------------------------------------------------
 
@@ -200,7 +201,7 @@ CREATE TABLE `location` (
 --
 
 INSERT INTO `location` (`ID`, `CLIENT`, `VEHICULE`, `DATEDEBUT`, `HEUREDEBUT`, `NBJOUR`, `VEHICULERETOURNE`, `DETTE`, `ETAT`, `USERCREATED`, `DATECREATED`, `USERUPDATED`, `DATEUPDATED`, `COMMENTAIRE`) VALUES
-(284922, 256812, 9248, '12-10-2023', '18:24:28', 90, 'NON', 0, 'ACTIF', 1, '12-10-2023 18:26:11', 1, '12-10-2023 19:38:06', '');
+(284922, 256812, 9248, '12-10-2023', '18:24:28', 90, 'NON', 0, 'ACTIF', 1, '12-10-2023 18:26:11', 1, '14-10-2023 11:53:16', '');
 
 -- --------------------------------------------------------
 
@@ -218,14 +219,13 @@ CREATE TABLE `module` (
 --
 
 INSERT INTO `module` (`ID`, `NOM`) VALUES
-(1, 'dashboard'),
-(2, 'client'),
-(3, 'reservation'),
-(4, 'location'),
-(5, 'vehicule'),
-(6, 'fournisseur'),
-(7, 'parametre'),
-(8, 'employe');
+(0, 'employe'),
+(1, 'client'),
+(2, 'fournisseur'),
+(3, 'stock'),
+(4, 'reservation'),
+(5, 'location'),
+(6, 'utilisateur');
 
 -- --------------------------------------------------------
 
@@ -248,14 +248,13 @@ CREATE TABLE `permissioncategory` (
 --
 
 INSERT INTO `permissioncategory` (`ID`, `MODULE`, `CAN_VIEW`, `CAN_ADD`, `CAN_EDIT`, `CAN_DELETE`, `CAN_PRINT`) VALUES
-(2, 2, '1', '1', '1', '1', '1'),
-(3, 1, '1', '0', '0', '0', '0'),
-(4, 8, '1', '1', '1', '1', '1'),
-(5, 6, '1', '1', '1', '1', '1'),
-(6, 4, '1', '1', '1', '1', '1'),
-(7, 7, '1', '0', '1', '0', '1'),
-(8, 3, '1', '1', '1', '1', '1'),
-(9, 5, '1', '1', '1', '1', '1');
+(10, 0, '1', '1', '1', '1', '0'),
+(11, 1, '1', '1', '1', '1', '0'),
+(12, 2, '1', '1', '1', '1', '0'),
+(13, 3, '1', '1', '1', '1', '0'),
+(14, 4, '1', '1', '1', '1', '1'),
+(15, 5, '1', '1', '1', '1', '1'),
+(18, 6, '1', '1', '1', '1', '0');
 
 -- --------------------------------------------------------
 
@@ -284,7 +283,7 @@ CREATE TABLE `reservation` (
 --
 
 INSERT INTO `reservation` (`ID`, `CLIENT`, `VEHICULE`, `DATEDEBUT`, `NBJOUR`, `VERSEMENT`, `BALANCE`, `LIVRE`, `ETAT`, `USERCREATED`, `DATECREATED`, `USERUPDATED`, `DATEUPDATED`) VALUES
-(927434, 256812, 870632, '12-10-2023', 80, 2000, 2000, 'NON', 'ACTIF', 1, '12-10-2023 18:01:29', NULL, '13-10-2023 10:26:25');
+(927434, 256812, 870632, '12-10-2023', 80, 2000, 2000, 'NON', 'ACTIF', 1, '12-10-2023 18:01:29', NULL, '14-10-2023 11:53:20');
 
 -- --------------------------------------------------------
 
@@ -345,21 +344,27 @@ CREATE TABLE `userpermission` (
 --
 
 INSERT INTO `userpermission` (`ID`, `USER`, `MODULE`, `CAN_VIEW`, `CAN_ADD`, `CAN_EDIT`, `CAN_DELETE`, `CAN_PRINT`) VALUES
-(1, 1, 1, '1', '1', '1', '1', '1'),
-(7, 1, 2, '1', '1', '1', '1', '1'),
-(8, 1, 3, '1', '1', '1', '1', '1'),
-(9, 1, 4, '1', '1', '1', '1', '1'),
-(10, 1, 5, '1', '1', '1', '1', '1'),
-(11, 1, 6, '1', '1', '1', '1', '1'),
-(12, 1, 7, '1', '1', '1', '1', '1'),
-(13, 1, 8, '1', '1', '1', '1', '1'),
-(14, 393562, 1, '1', '0', '0', '0', '0'),
-(15, 393562, 2, '1', '0', '0', '0', '0'),
-(16, 393562, 3, '1', '0', '0', '0', '0'),
-(17, 393562, 4, '1', '0', '0', '0', '0'),
-(18, 393562, 5, '1', '0', '0', '0', '0'),
-(19, 393562, 6, '1', '0', '0', '0', '0'),
-(20, 393562, 7, '0', '0', '0', '0', '0');
+(22, 1, 0, '1', '1', '1', '1', '0'),
+(23, 1, 1, '1', '1', '1', '1', '0'),
+(24, 1, 2, '1', '1', '1', '1', '0'),
+(25, 1, 3, '1', '1', '1', '1', '0'),
+(26, 1, 4, '1', '1', '1', '1', '1'),
+(27, 1, 5, '1', '1', '1', '1', '1'),
+(37, 1, 6, '1', '1', '1', '1', '0'),
+(46, 393562, 0, '1', '1', '0', '0', '0'),
+(47, 393562, 1, '1', '1', '1', '0', '0'),
+(48, 393562, 2, '1', '1', '1', '0', '0'),
+(49, 393562, 3, '1', '0', '0', '0', '0'),
+(50, 393562, 4, '1', '0', '0', '0', '1'),
+(51, 393562, 5, '1', '0', '0', '0', '1'),
+(52, 393562, 6, '1', '1', '1', '0', '0'),
+(53, 608306, 0, '1', '0', '0', '0', '0'),
+(54, 608306, 1, '1', '0', '0', '0', '0'),
+(55, 608306, 2, '1', '0', '0', '0', '0'),
+(56, 608306, 3, '1', '0', '0', '0', '0'),
+(57, 608306, 4, '1', '0', '0', '0', '0'),
+(58, 608306, 5, '1', '0', '0', '0', '0'),
+(59, 608306, 6, '1', '1', '1', '0', '0');
 
 -- --------------------------------------------------------
 
@@ -521,7 +526,7 @@ ALTER TABLE `company`
 -- AUTO_INCREMENT for table `employe`
 --
 ALTER TABLE `employe`
-  MODIFY `ID` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=393563;
+  MODIFY `ID` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=608307;
 
 --
 -- AUTO_INCREMENT for table `fournisseur`
@@ -545,13 +550,13 @@ ALTER TABLE `location`
 -- AUTO_INCREMENT for table `module`
 --
 ALTER TABLE `module`
-  MODIFY `ID` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `ID` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=986;
 
 --
 -- AUTO_INCREMENT for table `permissioncategory`
 --
 ALTER TABLE `permissioncategory`
-  MODIFY `ID` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `ID` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT for table `reservation`
@@ -569,7 +574,7 @@ ALTER TABLE `theme`
 -- AUTO_INCREMENT for table `userpermission`
 --
 ALTER TABLE `userpermission`
-  MODIFY `ID` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `ID` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=60;
 
 --
 -- AUTO_INCREMENT for table `vehicule`

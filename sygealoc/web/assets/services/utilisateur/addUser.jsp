@@ -58,7 +58,7 @@
                         String[] right = s.split("=");
                         rightsdata.put(right[0], Integer.parseInt(right[1]));
                     }
-                    for (int i = 1; i < 8; i++) {
+                    for (int i = 0; i < 7; i++) {
                         canview = rightsdata.get("canview" + i) == null ? "0" : rightsdata.get("canview" + i) +"";
                         canadd = rightsdata.get("canadd" + i) == null ? "0" : rightsdata.get("canadd" + i) +"";
                         canedit = rightsdata.get("canedit" + i) == null ? "0" : rightsdata.get("canedit" + i) +"";

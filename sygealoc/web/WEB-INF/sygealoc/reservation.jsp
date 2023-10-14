@@ -206,7 +206,7 @@
                                         <td>$ <%=l.BALANCE()%></td>
                                         <td><%=l.LIVRE()%></td>
                                         <td><%=l.ETAT()%></td>
-                                        <%if (r != null && (r.get(0).getCAN_EDIT().equals("1") || r.get(0).getCAN_DELETE().equals("1"))) {%>
+                                        <%if (r != null && (r.get(4).getCAN_EDIT().equals("1") || r.get(4).getCAN_DELETE().equals("1") || r.get(4).getCAN_PRINT().equals("1"))) {%>
                                         <td>
                                             <%if (r != null && r.get(4).getCAN_PRINT().equals("1")) {%>
                                             <a title="Imprimer" href="#" onclick="prepareDetails('<%=l.ID()%>')" class="primary info mr-1"><i class="las la-print"></i></a>

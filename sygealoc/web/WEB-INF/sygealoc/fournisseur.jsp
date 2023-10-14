@@ -182,7 +182,7 @@
                                             <td class="add-todo">${m.CIN()}</td>
                                             <td class="add-todo">${m.PATENTE()}</td> 
                                             <td class="add-todo">${m.SITEWEB()}</td> 
-                                            <%if (r != null && (r.get(0).getCAN_EDIT().equals("1") || r.get(0).getCAN_DELETE().equals("1"))) {%>
+                                            <%if (r != null && (r.get(2).getCAN_EDIT().equals("1") || r.get(2).getCAN_DELETE().equals("1"))) {%>
                                             <td>
                                                 <%if (r != null && r.get(2).getCAN_EDIT().equals("1")) {%>
                                                 <a title="Modifier" href="#" onclick="showEditModal('${m.ID()}')" class="primary edit mr-1"><i class="la la-pencil"></i></a>

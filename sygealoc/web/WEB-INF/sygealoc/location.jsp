@@ -35,7 +35,7 @@
                 <div class="card-head">
                     <div class="card-header">
                         <div class="heading-elements mt-0">
-                            <%if (r != null && r.get(4).getCAN_ADD().equals("1") || r != null && r.get(4).getCAN_EDIT().equals("1")) {%>
+                            <%if (r != null && r.get(5).getCAN_ADD().equals("1") || r != null && r.get(5).getCAN_EDIT().equals("1")) {%>
                             <button class="btn btn-primary btn-sm " onclick="holdModal('AddLocationModal')"><i class="d-md-none d-block ft-plus white"></i>
                                 <span class="d-md-block d-none">Nouvelle ${active_menu}</span></button>
                                 <%}%>
@@ -221,8 +221,8 @@
                                         <th>DETTE</th>
                                         <th>STATUT</th>
                                         <th>RETOUR AVANT</th>                                        
-                                            <%if (r != null && (r.get(4).getCAN_EDIT().equals("1") || r.get(4).getCAN_DELETE().equals("1")
-                                                        || r.get(4).getCAN_PRINT().equals("1"))) {%>
+                                            <%if (r != null && (r.get(5).getCAN_EDIT().equals("1") || r.get(5).getCAN_DELETE().equals("1")
+                                                        || r.get(5).getCAN_PRINT().equals("1"))) {%>
                                         <th>ACTIONS</th>
                                             <%}%>
                                     </tr>
@@ -245,17 +245,17 @@
                                         </td>
                                         <td><%=l.ETAT()%></td>
                                         <td><%=l.COMMENTAIRE()%></td>
-                                        <%if (r != null && (r.get(0).getCAN_EDIT().equals("1") || r.get(0).getCAN_DELETE().equals("1"))) {%>
+                                        <%if (r != null && (r.get(5).getCAN_EDIT().equals("1") || r.get(5).getCAN_DELETE().equals("1") || r.get(5).getCAN_PRINT().equals("1"))) {%>
                                         <td>
-                                            <%if (r != null && r.get(4).getCAN_PRINT().equals("1")) {%>
+                                            <%if (r != null && r.get(5).getCAN_PRINT().equals("1")) {%>
                                             <a title="Imprimer" href="#" onclick="prepareDetails('<%=l.ID()%>')" class="primary info mr-1"><i class="las la-print"></i></a>
                                                 <%}%>
 
-                                            <%if (r != null && r.get(4).getCAN_EDIT().equals("1")) {%>
+                                            <%if (r != null && r.get(5).getCAN_EDIT().equals("1")) {%>
                                             <a title="Modifier" href="#" onclick="showEditModal('<%=l.ID()%>')" class="primary edit mr-1"><i class="la la-pencil"></i></a>
                                                 <%}%>
 
-                                            <%if (r != null && r.get(4).getCAN_DELETE().equals("1")) {%>
+                                            <%if (r != null && r.get(5).getCAN_DELETE().equals("1")) {%>
                                             <a title="Supprimer" href="#" onclick="validateDeletion('<%=l.ID()%>')" class="danger delete mr-1"><i class="la la-trash-o"></i></a>
                                                 <%}%>
                                         </td>
@@ -275,8 +275,8 @@
                                         <th>DETTE</th>
                                         <th>STATUT</th>
                                         <th>RETOUR AVANT</th>  
-                                            <%if (r != null && (r.get(4).getCAN_EDIT().equals("1") || r.get(4).getCAN_DELETE().equals("1")
-                                                        || r.get(4).getCAN_PRINT().equals("1"))) {%>
+                                            <%if (r != null && (r.get(5).getCAN_EDIT().equals("1") || r.get(5).getCAN_DELETE().equals("1")
+                                                        || r.get(5).getCAN_PRINT().equals("1"))) {%>
                                         <th>ACTIONS</th>
                                             <%}%>
                                     </tr>

@@ -26,7 +26,7 @@
                 <div class="card-head">
                     <div class="card-header">
                         <div class="heading-elements mt-0">
-                            <%if (r != null && r.get(5).getCAN_ADD().equals("1") || r != null && r.get(5).getCAN_EDIT().equals("1")) {%>
+                            <%if (r != null && (r.get(6).getCAN_ADD().equals("1") || r.get(6).getCAN_EDIT().equals("1"))) {%>
                             <button class="btn btn-primary btn-sm " onclick="holdModal('AddEmployeModal')"><i class="d-md-none d-block ft-plus white"></i>
                                 <span class="d-md-block d-none">Nouveau ${active_menu}</span></button>
                                 <%}%>
@@ -218,7 +218,7 @@
                                         <th>PSEUDO</th>
                                         <th>POSTE</th>
                                         <th>&Eacute;TAT</th>
-                                            <%if (r != null && (r.get(5).getCAN_EDIT().equals("1") || r.get(5).getCAN_DELETE().equals("1"))) {%>
+                                            <%if (r != null && (r.get(6).getCAN_EDIT().equals("1") || r.get(6).getCAN_DELETE().equals("1"))) {%>
                                         <th>ACTIONS</th>
                                             <%}%>
                                     </tr>
@@ -230,15 +230,15 @@
                                         <td><%=me.PSEUDO()%></td>
                                         <td><%=me.POSTE()%></td>
                                         <td><%=me.ETAT()%></td>
-                                        <%if (r != null && (r.get(0).getCAN_EDIT().equals("1") || r.get(0).getCAN_DELETE().equals("1"))) {%>
+                                        <%if (r != null && (r.get(6).getCAN_EDIT().equals("1") || r.get(6).getCAN_DELETE().equals("1"))) {%>
                                         <td>
                                             <%
                                                 if (me != null && m != null && me.ID() != m.ID()) {
                                                     if (!me.PSEUDO().equals("admin")) {
-                                                        if (r != null && r.get(5).getCAN_EDIT().equals("1")) {%>
+                                                        if (r != null && r.get(6).getCAN_EDIT().equals("1")) {%>
                                             <a title="Modifier" href="#" onclick="showEditModal('<%=me.ID()%>')" class="primary edit mr-1"><%=me.PSEUDO().equals("admin") ? "" : "<i class='la la-pencil'></i>"%></a>
                                             <%}%>
-                                            <%if (r != null && r.get(5).getCAN_DELETE().equals("1")) {%>
+                                            <%if (r != null && r.get(6).getCAN_DELETE().equals("1")) {%>
                                             <a title="Supprimer" href="#" onclick="validateDeletion('<%=me.ID()%>')" class="danger delete mr-1"><%=me.PSEUDO().equals("admin") ? "" : "<i class='la la-trash'></i>"%></a>
                                             <%}
                                                     }
@@ -254,7 +254,7 @@
                                         <th>PSEUDO</th>
                                         <th>POSTE</th>
                                         <th>&Eacute;TAT</th>
-                                            <%if (r != null && (r.get(5).getCAN_EDIT().equals("1") || r.get(5).getCAN_DELETE().equals("1"))) {%>
+                                            <%if (r != null && (r.get(6).getCAN_EDIT().equals("1") || r.get(6).getCAN_DELETE().equals("1"))) {%>
                                         <th>ACTIONS</th>
                                             <%}%>
                                     </tr>

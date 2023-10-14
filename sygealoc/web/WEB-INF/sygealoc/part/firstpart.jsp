@@ -170,6 +170,7 @@
                     <li class=" nav-item" id="utilisateur"><a href="utilisateur"><i class="la la-users"></i><span class="menu-title" data-i18n="utilisateur">Utilisateur</span></a>
                     </li>
                     <%}%>
+                    
                 </ul>
             </div>
         </div>
